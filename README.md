@@ -1,9 +1,9 @@
 
-# Welcome to the Repository of Fiestag Webpage!
+# Welcome to the Repository of Fiesta Webpage!
 
-Link to the webpage: [https://serigra.github.io/Webpage_Quarto/]( https://serigra.github.io/Webpage_Quarto/)
+Link to the webpage: 
 
-You find all details of how I built my personal webpage on:
+You find all details of how I built this webpage based on my personal webpage repository: https://github.com/serigra/Webpage_Quarto.
 
 
 
