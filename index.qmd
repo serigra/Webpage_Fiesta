@@ -1,0 +1,35 @@
+---
+title: "Fiesta Webpage!" #title of "home" page
+pagetitle: "Fiesta - Home" # appears on top of browser window
+subtitle: "This is the webpage for the Fiesta in August!"
+image: home_polygon_1.png # in root folder
+about:
+  template: solana
+  image-width: 28em
+  id: hero-heading
+  links:
+    - icon: github
+      aria-label: GitHub
+      href: https://github.com/serigra
+    - icon: linkedin
+      aria-label: "LinkedIn"
+      href: https://www.linkedin.com/in/sereina-maria-graber-078701bb/
+    - text: "{{< ai researchgate >}}"
+      aria-label: ResearchGate
+      href: https://www.researchgate.net/profile/Sereina-Graber
+    - text: "{{< ai orcid >}}"
+      aria-label: ORCID ID
+      href: https://orcid.org/0009-0005-2128-0827
+page-layout: full
+---
+
+::: {#hero-heading}
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+[About →](about/about.qmd)
+:::
+
+
+<p style="font-size: small; color: #757883; margin-top: 1px; text-align: right;">
+Check out the R code for the twisted polygon <a href="twisted_polygon.qmd">here</a>.
+</p>

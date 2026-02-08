@@ -1,0 +1,285 @@
+
+/* ============= Titles and Subtitles of Individual Blog Posts ============== */
+
+@import url('https://fonts.googleapis.com/css2?family=Petrona:ital,wght@0,100..900;1,100..900&display=swap$');
+
+
+/* =============== General Styles for (closeread) Blog Posts ================ */
+/* necessary to set here again, 'coz for the closeread blog posts the styles 
+   are overwritten by cosmo default styles)*/
+
+body {
+  background-color: #f8f8f6 !important;
+}
+
+
+/* links */
+a {
+  font-family: "Petrona" !important;
+  color: #235347 !important;
+  font-size: 1em;
+  text-transform: none;
+  background-color: transparent !important;
+}
+
+
+/* remove background styling from inline code, e.g. `function()` */
+code {
+    background-color: transparent !important;
+    background: none !important;
+}
+
+/* background color of navbar */
+.navbar {
+  background: transparent !important;
+}
+
+/* navbar links */
+.navbar-nav .nav-link {
+    font-family: 'Petrona', sans-serif;
+    color: #235347 !important;
+    text-transform: uppercase;
+    letter-spacing: .1em; 
+    border-bottom: 0px hidden;    
+    margin: 0px 10px 0px 10px; 
+    padding: 2px 2px 4px 2px !important;
+
+    &:hover {
+      border-bottom: 1px solid !important;
+      padding: 2px 2px 0px 2px !important;
+      color: #FA2FBD;
+    }
+}
+
+
+.navbar-title {
+  font-family: 'Petrona', sans-serif;
+  color: #235347 !important;
+}
+
+
+
+
+
+/* ================ Styles for Closeread (scrollytelling) ================== */
+.cr-section {
+  .narrative-col {
+    min-width: 760px;
+    padding-left: 35px;
+    padding-right: 0px;
+    margin-right: -10px;
+  }
+}
+
+.cr-section .sticky-col {
+  padding-left: 5px;
+  padding-right: 10px;
+}
+
+.cr-section {
+  gap: 20px; /* Reduce overall gap between columns */
+}  
+  
+  
+/* ================ Title Styles (relevant for all blog posts) ============== */
+
+.title {
+  font-family: "Petrona";
+  font-size: 3rem;
+  color: #FA2FBD;
+  font-weight: 500;
+  margin-bottom: 1.2em !important;
+  /*text-align: center;*/
+}
+
+
+h1 {
+color: #7F8A80;
+font-family: "Petrona";
+font-size: 1.9rem;
+font-weight: 500;
+margin-top: 1.2rem;
+margin-bottom: 0.9rem;
+}
+
+
+h2 {
+color: #235347; 
+font-family: "Petrona";
+font-size: 1.4rem;
+font-weight: 500;
+margin-top: 1.2rem;
+margin-bottom: 0.9rem;
+}
+
+
+h3 {
+color: #7F8A80; 
+font-family: "Petrona";
+font-size: 1.2rem;
+font-weight: 500;
+margin-top: 1.2rem;
+margin-bottom: 0.9rem;
+}
+
+
+
+/* Hide description in individual blog posts (they should be only shown in the overwiew grid listing) */
+.description {
+  display: none !important;
+}
+
+/* ===================== Hex Sticker Gallery ======================== */
+
+.hex-stickers {
+  margin: 2rem auto;
+  max-width: 900px;
+  text-align: center;
+}
+
+.hex-row-1 {
+display: flex;
+justify-content: center;
+align-items: center;
+margin-bottom: -35px;
+}
+
+.hex-row-2 {
+margin-left: 5px;
+}
+
+
+/* for stickers in gallery */
+.hex-sticker {
+width: 120px;
+height: auto;
+margin: 0 5px;
+transition: transform 0.2s ease-in-out, filter 0.2s ease-in-out;
+}
+
+/* for standalone centered stickers */
+.hex-sticker-centered {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.hex-sticker:hover {
+transform: scale(1.1);
+filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.2));
+}
+
+.hex-stickers a {
+  text-decoration: none;
+}
+
+.hex-sticker-xsmall { width: 50px !important; }
+.hex-sticker-small { width: 80px !important; }
+.hex-sticker-medium { width: 120px !important; }
+.hex-sticker-large { width: 160px !important; }
+.hex-sticker-xlarge { width: 200px !important; }
+
+
+/* Responsive design */
+@media (max-width: 768px) {
+.hex-sticker {
+width: 80px;
+}
+.hex-row-2 {
+margin-left: 45px;
+}
+}
+
+
+
+
+/* ===================== Responsive Adjustments ======================== */
+
+/* Media query for smaller screens (mobile devices) */
+@media screen and (max-width: 768px) {
+
+  /* Adjust title for smaller screens */
+  .title {
+    font-size: 2.0rem; /* Reduce title size */
+    margin-bottom: 1em !important; /* Adjust spacing */
+    text-align: left !important; /* Center-align the title */
+  }
+
+  /* Left-align h1, h2, and h3 on smaller screens */
+  h1, h2, h3 {
+    text-align: left !important; /* Ensure headings are left-aligned */
+    margin-left: 0; /* Remove any unintended margins */
+    margin-right: 0; /* Remove any unintended margins */
+  }
+
+  /* Adjust body text for smaller screens */
+  body {
+    text-align: left !important; /* Justify or block-align the body text */
+    padding-left: 1rem; /* Add some padding for better readability */
+    padding-right: 1rem; /* Add some padding for better readability */
+    line-height: 1.6; /* Improve line spacing for readability on mobile */
+    margin: 0 auto; /* Center the content container horizontally if needed */
+  }
+
+
+}
+
+/* ============== ToC of Sections (right side of blog post) ================= */
+
+/* Title of TOC "on this page" */
+#toc-title{
+  font-family: "Petrona";
+  /*display: none; --> to not show title*/
+}
+
+/* Color of TOC links */
+.sidebar nav[role="doc-toc"] ul > li > a {
+    font-family: "Petrona";
+    color: #98A399 !important;
+}
+
+/* Color of active TOC links and vertical line next to it*/
+.sidebar nav[role="doc-toc"] ul > li > a.active {
+    font-family: "Petrona";
+    color: #235347 !important;
+    border-left: 1.5px solid #235347 !important; 
+}
+
+/* Change the color of TOC links on hover */
+.sidebar nav[role="doc-toc"] ul > li > a:hover {
+    font-family: "Petrona";
+    color: #FA2FBD !important;
+}
+
+
+#toc .nav-link:hover {
+  color: #FA2FBD !important;
+}
+
+
+
+/* ======= Customize the size of title block banner (e.g. useR! blog posts) ====== */
+
+.quarto-title-block .quarto-title-banner {
+  background-size: cover;
+  background-position: center;
+  height: auto;
+  min-height: 230px; /* Adjust this value as needed */
+}
+
+
+
+/* Suppress references (as part of quarto appendices) at the end of blog post */
+
+#quarto-bibliography {
+  display: none; /* suppress the reference list at the end of a blog post*/
+}
+
+#quarto-appendix {
+  /* coz the quarto appendix (=bibliography) leaves a small box --> 
+  hide with same background color as rest of site*/
+  background-color: #FBFAF9!important; 
+  border-color: #FBFAF9!important;
+}
+

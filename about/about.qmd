@@ -1,0 +1,69 @@
+---
+title: "Sereina M. Graber"
+subtitle: PhD, Data Scientist
+description: "Member of the organizing committee <br>
+[Zurich R User Group](https://zurich-r-user-group.github.io/)!"
+image: profile_picture.jpeg
+css: styles_about.css
+toc: false # no table of contents in about page
+about:
+  template: trestles
+  image-width: 14em
+  image-shape: round
+  links:
+    - icon: github
+      aria-label: GitHub
+      href: https://github.com/serigra
+    - icon: linkedin
+      aria-label: "LinkedIn"
+      href: https://www.linkedin.com/in/sereina-maria-graber-078701bb/
+    - text: "{{< ai researchgate >}}"
+      aria-label: ResearchGate
+      href: https://www.researchgate.net/profile/Sereina-Graber
+    - text: "{{< ai orcid >}}"
+      aria-label: ORCID ID
+      href: https://orcid.org/0009-0005-2128-0827
+html:
+  page-layout: full
+---
+
+# Background
+
+::: {style="margin-bottom: 0.9em;"}
+:::
+
+[{{< fa file-pdf >}} CV](files/CV_S_Graber.pdf){.cv-link}
+
+::: {style="margin-bottom: 1.1em;"}
+:::
+
+## Experience
+
+**since 2019 \| Data Scientist & Researcher \@ Health Sciences, Helsana insurance grp.**\
+I am working as Data Scientist and Health Sciences Researcher at the Health Science Department of the Helsana Insurance Group, where we focus on understanding the effectiveness and the quality of treatment in the Swiss health care system. I am part of the Research Data Team, where we are responsible for the technical infrastructure, extract and process data, conceptualize and implement statistical analyses, and collaborate with internal and external stakeholders on scientific publications and internal analytical projects.\
+
+I am particularly interested in medication 💊 prescribing trends 📉, investigating factors that drive over- or under-prescription and their implications for health outcomes. The research aims to establish an empirical foundation for optimized medication use and to enrich informed political discussions.
+
+Find all the research group's publications [here](https://www.helsana.ch/de/helsana-gruppe/medien-publikationen/wissenschaftliche-publikationen.html), and my individual publications [here](/publications/index.qmd).
+
+**2017 - 2019 \| Data Scientist \@ Advanced Analytics, Sanitas insurance grp.**\
+Lead, design and implementation of advanced analytical projects. In-house consulting and teaching of statistical and analytical skills.
+
+**2012 - 2016 \| projectwise \| Biostatistican \@ University Hospital Zurich, Cantonal Hospital Aarau**\
+Design, implementation of and consulting on statistics and data analyses for clinical trials/ scientific publications.
+
+<hr>
+
+## Education
+
+**2017 \| PhD in Evolutionary Biology**\
+Anthropological Institute and Museum, University of Zurich.\
+[Thesis](files/Dissertation_S_Graber.pdf): Comparative Analysis on Social & Ecological Factors Driving Brain Size Evolution.
+
+**2015 \| Master of Science in Biostatistics**\
+Epidemiology, Biostatistics and Prevention Institute, University of Zurich.\
+[Thesis](files/Msc_Thesis_Biostats_S_Graber.pdf): Phylogenetic Comparative Methods for Discrete Responses in Evolutionary Biology.
+
+**2012 \| Master of Science in Biology**\
+Anthropological Institute and Museum, University of Zurich.\
+[Thesis](files/Msc_Thesis_Biology_S_Graber.pdf): Cooperative Breeding and the Evolution of Brain Size in Birds.

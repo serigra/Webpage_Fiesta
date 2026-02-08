@@ -1,0 +1,267 @@
+
+/* ========= Format Body, Title and Subtitles of the Page ====================*/
+
+@import url('https://fonts.googleapis.com/css2?family=Petrona:ital,wght@0,100..900;1,100..900&display=swap$');
+
+
+body {
+  max-width: 2000px;
+  margin: 0 auto;
+  padding: 0;
+  width: 95%;
+}
+
+.title {
+  font-family: "Petrona";
+  font-size: 4.7rem;
+  color: #235347;
+  font-weight: 500;
+  line-height: 1.1em !important;
+}
+
+.subtitle {
+  font-family: "Petrona";
+  color: #FA2FBD;
+  font-size: 1rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+.entity-contents {
+  text-align: right !important;
+  padding: 0 3em 0 0;
+}
+
+.about-contents {
+  padding: 0 0 0 2em !important;
+  font-size: 1.2rem;
+  color: #666260;
+}
+
+/* Base styles for social links container */
+.about-entity .about-links {
+  display: flex !important;
+  justify-content: flex-end !important;
+  align-items: center !important;
+  column-gap: 0 !important;
+  font-size: 1.6em !important;
+  flex-direction: row !important;
+  flex-wrap: nowrap !important;
+  width: 100% !important;
+}
+
+/* Individual social link styles */
+.about-entity .about-link {
+  padding: 0.25em !important;
+  border: none !important;
+  display: inline-block !important;
+  white-space: nowrap !important;
+}
+
+a {
+  font-family: "Petrona" !important;
+  color: #235347 !important;
+  font-size: 1em;
+  text-transform: none;
+}
+
+.about-links.subtitle {
+  font-family: "Petrona";
+  color: #235347;
+  font-size: 0.8em !important;
+  justify-content: flex-end !important;
+}
+
+.about-image {
+  margin: 2em 0 0 1.2em;
+  padding: 0.5em 2em 0 0;
+}
+
+
+
+
+/* ---------------------  Responsive Styles Tablet -------------------- */
+
+@media screen and (max-width: 768px) {
+  body {
+    width: 95%;
+    text-align: center !important;
+  }
+  
+  .title {
+    font-size: 2.7rem;
+    text-align: center;
+  }
+  
+  .subtitle {
+    font-size: .9rem;
+    text-align: center;
+  }
+  
+  .about-image {
+    margin: 1em auto;
+    padding: 0;
+    max-width: 70%;
+    display: block;
+  }
+  
+  .entity-contents {
+    text-align: left !important;
+    padding: 0 !important;
+  }
+  
+  /* Mobile-specific social links styles */
+  .about-entity .about-links {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    flex-direction: row !important;
+    flex-wrap: nowrap !important;
+    gap: 1em !important;
+    width: 100% !important;
+    padding: 10px 0 30px !important;
+    margin: 0 auto !important;
+  }
+  
+  .about-entity .about-link {
+    display: inline-block !important;
+    font-size: 1.2em !important;
+    padding: 0.25em !important;
+    margin: 0 !important;
+  }
+}
+
+
+
+/* --------------------  Responsive Styles Mobile ------------------- */
+
+@media screen and (max-width: 480px) {
+  
+  body {
+    width: 98%; 
+    padding: 0 1%; /* Add small padding on both sides */
+  }
+  
+  .about-contents {
+    padding: 0 0.5em !important; /* Reduce left padding */
+  }
+  
+  .about-image {
+    margin-top: 0.5em;
+    max-width: 65%;
+  }
+  
+  /* Small mobile adjustments for social links */
+  .about-entity .about-links {
+    padding: 5px 0 30px !important; /* Increased bottom padding for smaller screens */
+  }
+  
+  .about-entity .about-link {
+    font-size: 1.5rem !important;
+    padding: 0.15em !important;
+  }
+}
+
+
+
+/* ============================= Navigation Bar ============================= */
+
+/* background color of navbar */
+.navbar {
+  background: transparent;
+}
+
+
+/* navbar links */
+.navbar-nav .nav-link {
+    font-family: 'Bebas Neue', sans-serif;
+    color: #235347 !important;
+    text-transform: uppercase;
+    letter-spacing: .1em; 
+    border-bottom: 0px hidden;    
+    margin: 0px 10px 0px 10px; 
+    padding: 2px 2px 4px 2px !important;
+
+    &:hover {
+      border-bottom: 1px solid !important;
+      padding: 2px 2px 0px 2px !important;
+      color: #FA2FBD;
+    }
+}
+
+
+
+
+/* ============== Customize Size of (R) Code Input/ Output ================ */
+
+/* Code */
+pre.sourceCode {
+  background-color: #fafafa; 
+  border: 0.9px solid #ddd;
+  border-radius: 4px;
+  padding: 1em;
+}
+
+
+code.sourceCode {
+  font-family: 'Courier New', monospace;
+  font-size: 1em;
+}
+
+
+/* Ouput of Code */
+.cell-output {
+  background-color: #f2f2f0!important;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 0.5em;
+  font-family: 'Courier New', monospace;
+  font-size: 0.9em;
+}
+
+
+.teenytiny-code{
+  font-size: 65%  
+}
+
+
+.tinyer-code{
+  font-size: 72%  
+}
+
+
+.tiny-code{
+  font-size: 85%  
+}
+
+
+.callout-note {
+  border-left-color: #235347 !important;
+}
+
+.callout-note .callout-header {
+  background-color: #B2BEB5 !important;
+}
+
+
+
+
+/* ============= Vertical Spaces for Between Text and/or Images ==============*/
+
+.tiny-space {
+  margin-bottom: 0.5em; 
+}
+
+
+.small-space {
+  margin-bottom: 1em; 
+}
+
+.medium-space {
+  margin-bottom: 2em;
+}
+
+.large-space {
+  margin-bottom: 3em;
+}
