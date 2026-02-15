@@ -1,0 +1,192 @@
+---
+title: "FAQ"
+format:
+  html:
+    toc: false
+    css: styles_FAQ.css
+---
+
+# FAQs - Frequently Asked Questions
+
+We've compiled answers to some common questions. If you don't find what you're looking for, please don't hesitate to reach out to us directly!
+
+Jump to a topic:
+
+- [When and Where?](#when-and-where)
+- [RSVP & Guest Information](#guest-info)
+- [Dress Code & Weather](#dress-code)
+- [Accommodation](#accommodation)
+- [Transportation & Parking](#transport)
+- [Wedding Day Details](#wedding-day-details)
+- [Gifts & Registry](#gifts-registry)
+- [Contact & Other Questions](#contact-other-questions)
+
+---
+
+::: {.faq-section}
+
+## When and Where? {#when-and-where}
+
+**When is the wedding?**
+
+Saturday, 29th of Augest, 2026
+From 4pm onwards.
+
+**Where is the ceremony and reception?**
+
+Both the ceremony and reception will be held at Chäsalp, Tobelhofstrasse 236, 8044 Zürich. See our [location page](/location/location.qmd) for detailed directions and maps.
+
+:::
+
+---
+
+::: {.faq-section}
+
+## RSVP & Guest Information {#guest-info}
+
+**When do I need to RSVP by?**
+
+Please RSVP by [Date]. This helps us finalize catering numbers and seating arrangements.
+
+**Can I bring a plus-one?**
+
+We've carefully curated our guest list based on venue capacity. If your invitation includes "and guest" or names a specific person, they are warmly welcomed. If you're unsure, please contact us!
+
+**Are children welcome?**
+
+We love your little ones, but we've decided to make our wedding an adults-only celebration. 
+
+
+**What if I have dietary restrictions?**
+
+Please indicate any dietary restrictions, allergies, or special meal requirements in your RSVP form. The caterers from Chäsalp will do their best to accommodate your needs.
+
+:::
+
+---
+
+::: {.faq-section}
+
+## Dress Code & Weather {#dress-code}
+
+**What should I wear?**
+
+The dress code is [cocktail attire / semi-formal / formal / garden party attire].
+
+**Ladies:** Cocktail dresses, elegant midi or maxi dresses, dressy separates  
+**Gentlemen:** Suits or blazers with dress pants and tie optional
+
+**What's the weather like in Zürich in [Month]?**
+
+[Month] in Zürich typically has [average temperature] temperatures. We recommend bringing:
+- A light jacket or wrap for the evening
+- Comfortable shoes (there may be some walking (optionally running) on uneven surfaces)
+- An umbrella just in case
+
+The venue has both indoor and outdoor spaces, so we'll be comfortable regardless of weather!
+
+:::
+
+---
+
+::: {.faq-section}
+
+## Accommodation
+
+**Where should we stay?**
+
+We've compiled a list of recommended hotels at various price points on our [Accommodation page](accommodation.html). We recommend booking early, especially if you're visiting during peak tourist season.
+
+**Is there a hotel block?**
+
+[Option 1: Yes! We have reserved a block of rooms at [Hotel Name]. Use the code [CODE] when booking to receive our group rate. Please book by [date].]
+
+[Option 2: Due to the variety of accommodation options in Zürich, we haven't arranged a specific hotel block, but we've provided recommendations on our Accommodation page.]
+
+:::
+
+---
+
+::: {.faq-section}
+
+## Transportation & Parking {#transport}
+
+**How do I get to the venue?**
+
+Detailed directions by public transport, car, and taxi are available on our [location page](/location/location.qmd).
+
+**Is there parking available?**
+
+Yes! Chäsalp offers free off-street parking. However, if you're planning to enjoy the festivities with cocktails, we recommend using public transportation or a taxi/Uber.
+
+**Will there be transportation provided?**
+
+[Option 1: We will not be providing shuttle service, but taxis and Uber are readily available in the area.]
+
+[Option 2: We will be arranging shuttle service from [location] to the venue. More details will be shared closer to the date.]
+
+:::
+
+---
+
+::: {.faq-section}
+
+## Wedding Day Details
+
+**What's the schedule for the day?**
+
+**[Time]** - Ceremony begins (please arrive 15 minutes early)  
+**[Time]** - Cocktail hour on the terrace  
+**[Time]** - Reception and dinner  
+**[Time]** - First dance and dancing  
+**[Time]** - Event concludes
+
+**Will the ceremony be indoors or outdoors?**
+
+[We're planning an outdoor ceremony, weather permitting, with an indoor backup option. / The ceremony will be held indoors in the beautifully restored barn.]
+
+**Can I take photos during the ceremony?**
+
+We've hired a professional photographer to capture our special moments. We kindly ask that you keep your phones and cameras put away during the ceremony so everyone can be fully present. Feel free to snap away during the reception!
+
+**Will there be an unplugged ceremony?**
+
+Yes, we're asking guests to refrain from using phones and cameras during the ceremony. We want everyone to be fully present, and our photographer will capture all the special moments to share with you later.
+
+:::
+
+---
+
+::: {.faq-section}
+
+## Gifts & Registry
+
+**Do you have a registry?**
+
+[Option 1: Your presence is the greatest gift! If you wish to give something, we've set up a registry at [Store/Website], or a contribution to our [honeymoon fund / future together] would be greatly appreciated.]
+
+[Option 2: We are fortunate to have everything we need for our home. If you'd like to give a gift, a contribution toward our honeymoon would mean the world to us. Details are on our [Registry page](registry.html).]
+
+**Where can I find your registry?**
+
+Please visit our [Registry page](registry.html) for more information.
+
+:::
+
+---
+
+::: {.faq-section}
+
+## Contact & Other Questions {#contact-other-questions}
+
+**I have mobility concerns. Is the venue accessible?**
+
+Please contact us directly so we can discuss your specific needs and ensure you're comfortable throughout the celebration.
+
+**Can I bring my service animal?**
+
+Yes, service animals are welcome. Please let us know in advance so we can make appropriate arrangements.
+
+**I'm traveling from abroad. What do I need to know?**
+
+....

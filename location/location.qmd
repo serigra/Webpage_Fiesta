@@ -1,0 +1,76 @@
+---
+title: "Location" # does not show becuase in styles.css title block hidden!
+format:
+  html:
+    toc: false
+    css: styles_location.css
+---
+
+
+::: {.grid}
+
+::: {.g-col-12 .g-col-md-4}
+
+# Chäsalp - 8044 Zürich
+
+![](chasalp_outside.png)
+
+![](chasalp_inside.png)
+
+![](chasalp_outside2.png)
+
+:::
+
+::: {.g-col-12 .g-col-md-8}
+
+### Venue Details
+
+**Chäsalp / Restaurant Alter Tobelhof**  
+Tobelhofstrasse 236  
+8044 Zürich, Switzerland
+
+**Website:** [www.chaesalp.ch](https://www.chaesalp.ch)
+
+Chäsalp is housed in a lovingly restored barn from the historic "Alter Tobelhof" farm. The restaurant sits at 617.02 meters above sea level, offering guests a unique Alpine hut atmosphere combined with spectacular views over Zürich and the surrounding countryside.
+
+**Features:**
+
+- Romantic garden terrace perfect for sunset cocktails
+- Cozy rustic interiors with traditional Swiss charm
+- Beautiful natural surroundings
+- Ample parking available on-site
+
+### How to Get There
+
+**By Public Transport (Option I):**
+
+1. Take **Tram 6** (direction Zoo) to **Kirche Fluntern** (ca. 10 min. from Zürich HB)
+2. Transfer to **Bus 751** (direction Stettbach Bahnhof), get off at **Zürich, Tobelhof** (ca. 10 min. from Kirche Fluntern)
+3. Walk approximately 2 minutes uphill to Chäsalp/ Restauran Alter Tobelhof
+
+**By Public Transport (Option II):**
+
+1. Take S-Train **S3, S7, S9, S11, S12** to **Stettbach** (ca. 8 min. from Zürich HB)
+2. Transfer to **Bus 751** (direction Kirche Fluntern), get off at **Zürich, Tobelhof** (ca. 10 min. from Stettbach)
+3. Walk approximately 2 minutes uphill to Chäsalp/ Restauran Alter Tobelhof
+
+*Journey time from Zürich HB: 25-30 minutes*.\
+Check online the [SBB Journey Planner](https://www.sbb.ch/de?stops=Z%C3%BCrich+HB_I8503000~Z%C3%BCrich,+Tobelhof_I8591396). 
+
+**By Car:**
+
+Address for GPS: **Tobelhofstrasse 236, 8044 Zürich**
+
+Free parking available at the venue.
+
+**By Taxi/ Uber:**
+
+Approximately 15 minutes from Zürich city center.
+
+### Map
+
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2700.547!2d8.5663!3d47.3856!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x479aa0f0f0f0f0f0%3A0x0!2sChäsalp!5e0!3m2!1sen!2sch!4v1234567890" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+:::
+
+:::

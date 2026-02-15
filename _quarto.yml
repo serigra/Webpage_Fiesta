@@ -7,29 +7,33 @@ project:
 
 website:
   title: ""
-  favicon: home_polygon_1.png # image in root folder, same for "home" page
+  #favicon: home_polygon_1.png # image in root folder, same for "home" page
   search:
     location: navbar
     type: overlay
   page-footer: 
-        background: "#f8f8f6"
-        center: © 2025  &middot; Made with [![](https://www.r-project.org/Rlogo.png){fig-alt="R" width=25px}](https://www.r-project.org/)  and [![](https://quarto.org/quarto.png){fig-alt="Quarto" width=65px}](https://quarto.org/) 
+        #background: 'transparent'
+        center: © 2026  &middot; Made with [![](https://www.r-project.org/Rlogo.png){fig-alt="R" width=25px}](https://www.r-project.org/)  and [![](https://quarto.org/quarto.png){fig-alt="Quarto" width=65px}](https://quarto.org/) 
   navbar:
-    title: "Fiesta!" # use "false" if not using website title on left side of navbar...
+    title: false # use "false" if not using website title on left side of navbar...
     search: true
-    logo: home_polygon_1.png # logo on top left, next to website title
+    #logo: home_polygon_1.png # logo on top left, next to website title
     right:
       - href: index.qmd
         text: home
-      - href: about/about.qmd
-        text: about
+      - href: location/location.qmd
+        text: location
+      - href: RSVP/RSVP.qmd
+        text: RSVP
+      - href: FAQs/FAQs.qmd
+        text: FAQs
       - icon: github
         href: https://github.com/serigra/Webpage_Quarto
     
 format:
   html:
     theme: cosmo
-    backgroundcolor: "#f8f8f6"
+    backgroundcolor: '#D8D3DD'
     css: styles.css
     toc: true
     grid: # to format layout of "HOME" Site, formating of other sites is defined in styles_publications.css, styles_talks.css, etc

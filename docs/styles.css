@@ -1,169 +1,101 @@
 
-/* ========= Format Body, Title and Subtitles of the Page ====================*/
 
 @import url('https://fonts.googleapis.com/css2?family=Petrona:ital,wght@0,100..900;1,100..900&display=swap$');
 
+/* Hero section styling for landing page */
+.quarto-title-block {
+  display: none; /* Hide default title block */
+}
 
 body {
-  max-width: 2000px;
-  margin: 0 auto;
+  margin: 0;
   padding: 0;
-  width: 95%;
 }
 
-.title {
-  font-family: "Petrona";
-  font-size: 4.7rem;
-  color: #235347;
-  font-weight: 500;
-  line-height: 1.1em !important;
+/* Container for the entire hero section */
+#quarto-content {
+  position: relative;
+  min-height: calc(100vh - 120px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: visible; /*hidden*/
+  padding-bottom: 1rem; /* Add padding at bottom */
 }
 
-.subtitle {
-  font-family: "Petrona";
-  color: #FA2FBD;
-  font-size: 1rem;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 0.1em;
-}
 
-.entity-contents {
-  text-align: right !important;
-  padding: 0 3em 0 0;
-}
+/* =============================== Plotly Chart ============================= */
 
-.about-contents {
-  padding: 0 0 0 2em !important;
-  font-size: 1.2rem;
-  color: #666260;
-}
-
-/* Base styles for social links container */
-.about-entity .about-links {
-  display: flex !important;
-  justify-content: flex-end !important;
-  align-items: center !important;
-  column-gap: 0 !important;
-  font-size: 1.6em !important;
-  flex-direction: row !important;
-  flex-wrap: nowrap !important;
+/* Plotly chart container - make it fill the background */
+.plotly {
+  position: fixed !important;
+  overflow: hidden;
+  top: 0;
+  left: 0;
   width: 100% !important;
+  height: 100vh !important;
+  z-index: 1;
+  pointer-events: auto; /* Allow hover interactions */
 }
 
-/* Individual social link styles */
-.about-entity .about-link {
-  padding: 0.25em !important;
-  border: none !important;
-  display: inline-block !important;
-  white-space: nowrap !important;
-}
-
-a {
-  font-family: "Petrona" !important;
-  color: #235347 !important;
-  font-size: 1em;
-  text-transform: none;
-}
-
-.about-links.subtitle {
-  font-family: "Petrona";
-  color: #235347;
-  font-size: 0.8em !important;
-  justify-content: flex-end !important;
-}
-
-.about-image {
-  margin: 2em 0 0 1.2em;
-  padding: 0.5em 2em 0 0;
+/* Ensure plotly chart fills container */
+.js-plotly-plot,
+.plotly-graph-div {
+  width: 100% !important;
+  height: 100% !important;
+  min-height: 100% !important;
 }
 
 
+/* ==================================== Text ================================= */
 
 
-/* ---------------------  Responsive Styles Tablet -------------------- */
-
-@media screen and (max-width: 768px) {
-  body {
-    width: 95%;
-    text-align: center !important;
-  }
-  
-  .title {
-    font-size: 2.7rem;
-    text-align: center;
-  }
-  
-  .subtitle {
-    font-size: .9rem;
-    text-align: center;
-  }
-  
-  .about-image {
-    margin: 1em auto;
-    padding: 0;
-    max-width: 70%;
-    display: block;
-  }
-  
-  .entity-contents {
-    text-align: left !important;
-    padding: 0 !important;
-  }
-  
-  /* Mobile-specific social links styles */
-  .about-entity .about-links {
-    display: flex !important;
-    justify-content: center !important;
-    align-items: center !important;
-    flex-direction: row !important;
-    flex-wrap: nowrap !important;
-    gap: 1em !important;
-    width: 100% !important;
-    padding: 10px 0 30px !important;
-    margin: 0 auto !important;
-  }
-  
-  .about-entity .about-link {
-    display: inline-block !important;
-    font-size: 1.2em !important;
-    padding: 0.25em !important;
-    margin: 0 !important;
-  }
+/* Hero content overlay */
+.hero-content {
+  position: relative;
+  z-index: 10;
+  max-width: 800px;
+  padding: 2rem;
+  text-align: right;
+  margin-left: -37%;
+  margin-top: -15vh; /* Position near the peak */
 }
 
-
-
-/* --------------------  Responsive Styles Mobile ------------------- */
-
-@media screen and (max-width: 480px) {
-  
-  body {
-    width: 98%; 
-    padding: 0 1%; /* Add small padding on both sides */
-  }
-  
-  .about-contents {
-    padding: 0 0.5em !important; /* Reduce left padding */
-  }
-  
-  .about-image {
-    margin-top: 0.5em;
-    max-width: 65%;
-  }
-  
-  /* Small mobile adjustments for social links */
-  .about-entity .about-links {
-    padding: 5px 0 30px !important; /* Increased bottom padding for smaller screens */
-  }
-  
-  .about-entity .about-link {
-    font-size: 1.5rem !important;
-    padding: 0.15em !important;
-  }
+/* Text styling */
+.hero-text {
+  color: #FF6A00;
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 1.5rem;
+  line-height: 1.6;
+  margin-bottom: 2rem;
+  font-weight: 400;
+  /*text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.8);*/
+  /*background: rgba(255, 255, 255, 0.7);*/
+  padding: 0rem;
+  border-radius: 10px;
+  /*backdrop-filter: blur(2px);*/
 }
 
+/* Names styling - big and bold */
+.hero-names {
+  font-size: 3.5rem;
+  font-weight: 700;
+  color: #FF6A00;
+  /*text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.9);*/
+  letter-spacing: 0.05em;
+  font-family: 'Bebas Neue', sans-serif;
+  margin-top: 1rem;
+}
 
+/* Inline image styling within hero-names */
+.hero-names .inline-heart {
+  height: 2.5em; /* Scales with font size */
+  width: auto;
+  vertical-align: middle;
+  margin: 0 -0.4em; /* Small spacing around the image */
+  display: inline-block;
+  /* filter: drop-shadow(2px 2px 4px rgba(255, 255, 255, 0.9)); Match text shadow */
+}
 
 /* ============================= Navigation Bar ============================= */
 
@@ -176,7 +108,7 @@ a {
 /* navbar links */
 .navbar-nav .nav-link {
     font-family: 'Bebas Neue', sans-serif;
-    color: #235347 !important;
+    color: #FF6A00 !important;
     text-transform: uppercase;
     letter-spacing: .1em; 
     border-bottom: 0px hidden;    
@@ -191,77 +123,151 @@ a {
 }
 
 
+/* ================================ Footer ================================== */
 
 
-/* ============== Customize Size of (R) Code Input/ Output ================ */
-
-/* Code */
-pre.sourceCode {
-  background-color: #fafafa; 
-  border: 0.9px solid #ddd;
-  border-radius: 4px;
-  padding: 1em;
+/* Reduce footer vertical space and make transparent for plotly background */
+footer {
+  margin-top: 0;
+  padding: 0.75rem 1rem;
+  min-height: auto;
+  background: transparent !important; /* Make footer transparent */
+  position: relative;
+  z-index: 10; /* Keep footer text above plotly */
 }
 
-
-code.sourceCode {
-  font-family: 'Courier New', monospace;
-  font-size: 1em;
+/* Style footer text for readability over plotly background */
+footer p,
+footer a,
+.nav-footer,
+.nav-footer-center {
+  text-shadow: 1px 1px 3px rgba(255, 255, 255, 0.8),
+               0 0 5px rgba(255, 255, 255, 0.6);
+  color: #333 !important;
 }
 
-
-/* Ouput of Code */
-.cell-output {
-  background-color: #f2f2f0!important;
-  border: 1px solid #ddd;
-  border-radius: 4px;
-  padding: 0.5em;
-  font-family: 'Courier New', monospace;
-  font-size: 0.9em;
+/* Reduce footer content spacing and make transparent */
+.nav-footer {
+  padding: 0.75rem 0 !important;
+  min-height: auto !important;
+  background: transparent !important;
 }
 
-
-.teenytiny-code{
-  font-size: 65%  
+.nav-footer-center {
+  padding: 0.5rem 0 !important;
+  background: transparent !important;
 }
 
-
-.tinyer-code{
-  font-size: 72%  
-}
-
-
-.tiny-code{
-  font-size: 85%  
-}
-
-
-.callout-note {
-  border-left-color: #235347 !important;
-}
-
-.callout-note .callout-header {
-  background-color: #B2BEB5 !important;
+/* Ensure footer doesn't overlap content */
+body {
+  padding-bottom: 0;
 }
 
 
 
+/* ========================== Respsonsive Design ============================= */
 
-/* ============= Vertical Spaces for Between Text and/or Images ==============*/
+/* ----------------------  Responsive design for tablets ----------------------*/
 
-.tiny-space {
-  margin-bottom: 0.5em; 
+@media (max-width: 992px) {
+  .hero-content {
+    margin-left: 5%;
+    margin-top: -10vh;
+    max-width: 90%;
+  }
+  
+  .hero-text {
+    font-size: 1.2rem;
+    padding: 1.2rem;
+  }
+  
+  .hero-names {
+    font-size: 3rem;
+  }
+}
+
+/* ------------------- Responsive design for mobile phones -------------------*/
+
+@media (max-width: 768px) {
+  #quarto-content {
+     min-height: calc(100vh - 70px); /* Ensure full visibility on mobile */
+     padding-bottom: 1rem;
+  }
+  
+  .hero-content {
+    margin-left: 0;
+    margin-top: 0;
+    padding: 1.5rem;
+    max-width: 100%;
+    text-align: center; /* Center text on mobile */
+  }
+  
+  .hero-text {
+    font-size: 1.1rem;
+    padding: 1rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .hero-names {
+    font-size: 2.5rem;
+  }
+  
+   /* Ensure footer is compact on mobile */
+  footer {
+    padding: 0.5rem 0.75rem;
+    background: transparent !important;
+  }
+  
+  .nav-footer {
+    padding: 0rem 0 !important;
+    background: transparent !important;
+  }
+  
+  
+}
+
+/* --------------------------- Extra small phones ----------------------------*/
+
+@media (max-width: 480px) {
+  .hero-content {
+    padding: 1rem;
+  }
+  
+  .hero-text {
+    font-size: 1rem;
+    padding: 0.8rem;
+  }
+  
+  .hero-names {
+    font-size: 2rem;
+  }
+  
+  /* Extra compact footer for small phones */ 
+  /* Controls the overall footer container */
+  footer {
+    padding: 0.4rem 0.5rem; /* top/ bottom and left/ right*/
+    font-size: 0.85rem;
+    background: transparent !important;
+  }
+  
+  /*Controls Quarto's specific footer content wrapper (which sits inside <footer>)*/
+  .nav-footer {
+    padding: 0rem 0 !important;
+    background: transparent !important;
+  }
+  
+  
 }
 
 
-.small-space {
-  margin-bottom: 1em; 
+/* Ensure hover tooltip is visible on mobile */
+.hoverlayer .hovertext {
+  pointer-events: none !important;
 }
 
-.medium-space {
-  margin-bottom: 2em;
+/* Optional: Add smooth scroll behavior */
+html {
+  scroll-behavior: smooth;
 }
 
-.large-space {
-  margin-bottom: 3em;
-}
+

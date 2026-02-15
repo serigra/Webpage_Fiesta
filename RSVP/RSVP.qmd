@@ -1,0 +1,63 @@
+---
+title: "RSVP"
+format:
+  html:
+    toc: false
+    css: styles_RSVP.css
+---
+
+# We Hope You Can Join Us!
+
+We're so excited to celebrate our special day with you at Chäsalp. Please let us know if you'll be able to attend by **[Your Deadline Date]**.
+
+If you have any questions or need assistance with your RSVP, please don't hesitate to contact us at [your-email@example.com] or [your phone number].
+
+---
+
+### Please Complete Your RSVP Below
+
+<div data-tf-live="YOUR-TYPEFORM-ID"></div>
+<script src="//embed.typeform.com/next/embed.js"></script>
+
+---
+
+## Additional Information
+
+::: {.grid}
+
+::: {.g-col-12 .g-col-md-6}
+
+### Event Schedule
+
+**Ceremony:** [Time]  
+**Cocktail Hour:** [Time]  
+**Reception & Dinner:** [Time]  
+**Dancing:** [Time]
+
+:::
+
+::: {.g-col-12 .g-col-md-6}
+
+### Dress Code
+
+[Your dress code - e.g., "Cocktail attire" or "Semi-formal"]
+
+**Suggestions:**  
+- Ladies: Cocktail dresses, elegant separates
+- Gentlemen: Suits or dress pants with dress shirt
+
+:::
+
+:::
+
+### Need Accommodation?
+
+We've compiled a list of recommended hotels and accommodations on our [Accommodation page](accommodation.html).
+
+### Questions?
+
+If you have any dietary restrictions, accessibility needs, or special requests, please include them in the notes section of your RSVP or contact us directly.
+
+---
+
+*We can't wait to celebrate with you!*

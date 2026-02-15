@@ -1,36 +1,86 @@
 ---
-title: "Fiesta Webpage!" #title of "home" page
-pagetitle: "Fiesta - Home" # appears on top of browser window
-subtitle: "This is the webpage for the Fiesta in August!"
-image: home_polygon_1.png # in root folder
-about:
-  template: solana
-  image-width: 28em
-  id: hero-heading
-  links:
-    - icon: github
-      aria-label: GitHub
-      href: https://github.com/serigra
-    - icon: linkedin
-      aria-label: "LinkedIn"
-      href: https://www.linkedin.com/in/sereina-maria-graber-078701bb/
-    - text: "{{< ai researchgate >}}"
-      aria-label: ResearchGate
-      href: https://www.researchgate.net/profile/Sereina-Graber
-    - text: "{{< ai orcid >}}"
-      aria-label: ORCID ID
-      href: https://orcid.org/0009-0005-2128-0827
-page-layout: full
+title: ""
+pagetitle: "Fiesta - Home"
+subtitle: ""
+page-layout: custom
+format:
+  html:
+    css: styles.css
 ---
 
-::: {#hero-heading}
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-An d maybe some more.
+```{r}
+#| echo: false
+#| warning: false
+#| message: false
 
-[About →](about/about.qmd)
+library(plotly)
+
+# load the data
+load("elevation_profile.Rda")
+
+# smooth elevation
+# loess_model <- loess(elevation ~ cumulative_norm_distance, data = combined_elevation, span = 0.005)
+# combined_elevation$smoothed_elevation <- predict(loess_model, combined_elevation$cumulative_norm_distance)
+
+distance_smooth <- seq(min(combined_elevation$cumulative_norm_distance), max(combined_elevation$cumulative_norm_distance), length.out = 900)
+elevation_smooth <- spline(combined_elevation$cumulative_norm_distance, combined_elevation$elevation, xout = distance_smooth)$y
+
+# Create the elevation profile with Plotly
+fig <- plot_ly(#data= combined_elevation,
+  x = ~distance_smooth,
+  y = ~elevation_smooth,
+  type = 'scatter',
+  mode = 'lines',
+  fill = 'tozeroy',
+  fillcolor = '#FFD2B3',  # Using your theme color with transparency
+  line = list(color = '#FF6A00', width = 3),
+  hovertemplate = paste(
+    '<b>%{y:.0f} m</b>',
+    '<extra></extra>'
+  ),
+  name = ''
+) %>%
+  layout(
+    paper_bgcolor = 'rgba(0,0,0,0)',
+    plot_bgcolor = 'rgba(0,0,0,0)',
+    xaxis = list(
+      title = '',
+      showgrid = FALSE,
+      showticklabels = FALSE,
+      zeroline = FALSE,
+      showline = FALSE,
+      fixedrange = TRUE
+    ),
+    yaxis = list(
+      title = '',
+      range = c(-2, max(elevation_smooth) * 1.1),  # Force y-axis to start at 0
+      showgrid = FALSE,
+      showticklabels = FALSE,
+      zeroline = FALSE,
+      showline = FALSE,
+      fixedrange = TRUE
+    ),
+    margin = list(l = 0, r = 0, t = 0, b = 0, pad = 0),
+    hovermode = 'x unified',
+    hoverlabel = list(
+      bgcolor = 'white',
+      font = list(size = 14, color = 'black')
+    )
+  ) %>%
+  config(displayModeBar = FALSE)
+
+# Render the plot
+fig
+```
+
+::: {.hero-content}
+::: {.hero-text}
+We are looking forward to pop the bubbles, hit the dance floor and have a wonderful time with the best
+people.
+We would love for you to come celebrate with us as we toast to love, friendship and most importantly, to you!
 :::
 
-
-<p style="font-size: small; color: #757883; margin-top: 1px; text-align: right;">
-Check out the R code for the twisted polygon <a href="twisted_polygon.qmd">here</a>.
-</p>
+::: {.hero-names}
+with love J <img src="heart_orange.png" class="inline-heart"> S
+:::
+:::
