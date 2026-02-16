@@ -28,7 +28,7 @@ website:
       - href: FAQs/FAQs.qmd
         text: FAQs
       - icon: github
-        href: https://github.com/serigra/Webpage_Quarto
+        href: https://github.com/serigra/Webpage_Fiesta
     
 format:
   html:
