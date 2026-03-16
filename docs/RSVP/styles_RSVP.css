@@ -58,7 +58,7 @@ a {
 
 .typeform-wrapper {
   height: 500px; /* a bit taller by default */
-  margin-bottom: 0.5rem;
+  margin-bottom: 1.5rem;
   overflow: hidden;
   position: relative;
 }
