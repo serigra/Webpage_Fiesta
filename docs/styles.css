@@ -393,3 +393,23 @@ footer a,
 html {
   scroll-behavior: smooth;
 }
+
+
+/* ============= Vertical Spaces for Between Text and/or Images ==============*/
+
+.tiny-space {
+  margin-bottom: 0.5em; 
+}
+
+
+.small-space {
+  margin-bottom: 1em; 
+}
+
+.medium-space {
+  margin-bottom: 2em;
+}
+
+.large-space {
+  margin-bottom: 3em;
+}
