@@ -27,6 +27,8 @@ We would love for you to come celebrate with us as we toast to love, friendship 
 with love J <img src="heart_dark_green.png" class="inline-heart"> S
 :::
 
+<div class="register-btn-wrapper">
 <a href="RSVP/RSVP.html" class="register-btn">Register</a>
+</div>
 
 :::
