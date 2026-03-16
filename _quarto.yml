@@ -33,7 +33,7 @@ website:
 format:
   html:
     theme: cosmo
-    backgroundcolor: '#EDEAE3'
+    backgroundcolor:  '#EFECE6' #'#EDEAE3'
     css: styles.css
     toc: true
     grid: # to format layout of "HOME" Site, formating of other sites is defined in styles_publications.css, styles_talks.css, etc
