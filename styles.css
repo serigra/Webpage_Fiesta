@@ -38,6 +38,42 @@ video {
 
 /* ================================ Text ================================== */
 
+.video-wrapper {
+  position: relative;
+  width: 600px;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.hero-date {
+  position: absolute;
+  bottom: 1.5rem;
+  right: 1.5rem;
+  color: #254036;
+  font-family: 'Quicksand';  /* fixed: was 'EB Cormorant' */
+  font-size: 1.8rem;
+  font-weight: 400;
+  letter-spacing: 0.05em;
+  z-index: 10;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .hero-date {
+    font-size: 1.3rem;
+    bottom: 1rem;
+    right: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero-date {
+    font-size: 1.1rem;
+    bottom: 0.75rem;
+    right: 0.75rem;
+  }
+}
+
 .hero-content {
   position: relative;
   isolation: isolate;     /* ← fixes iOS z-index clipping */

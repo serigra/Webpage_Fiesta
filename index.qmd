@@ -8,12 +8,13 @@ format:
     css: styles.css
 ---
 
-<video autoplay loop muted playsinline>
-  <source src="GIF4.webm" type="video/webm">
-  <source src="GIF4.mp4" type="video/mp4">
-</video>
-
-
+<div class="video-wrapper">
+  <video autoplay loop muted playsinline>
+    <source src="GIF4.webm" type="video/webm">
+    <source src="GIF4.mp4" type="video/mp4">
+  </video>
+  <div class="hero-date">15 · 08 · 2026</div>
+</div>
 
 ::: {.hero-content}
 
