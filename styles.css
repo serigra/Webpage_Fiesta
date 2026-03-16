@@ -143,8 +143,8 @@ video {
   .register-btn-wrapper a.register-btn,
   .register-btn-wrapper a.register-btn:link,
   .register-btn-wrapper a.register-btn:visited {
-    font-size: 0.7rem !important;
-    padding: 0.4rem 1.7rem !important;
+    font-size: 0.9rem !important;
+    padding: 0.5rem 1.75rem !important;
   }
 }
 
