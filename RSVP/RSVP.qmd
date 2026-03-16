@@ -7,21 +7,19 @@ format:
 ---
 
 
+REGISTRATION | RSVP
+
 We would love for you to join us on
 
 ### Saturday, 29th of August 2026 at **Chäsalp** (4pm onwards)
 \
 
-Please complete your RSVP below by **[Your Deadline Date]**.
+Please complete your RSVP below by **July 1st, 2026**.
 
 <div data-tf-live="01KHJV0AXM3YSVHR8ZJMQXNPD7"></div><script src="//embed.typeform.com/next/embed.js"></script>
 
----
 
-
-::: {.grid}
-
-::: {.g-col-12 .g-col-md-6}
+\
 
 ### Event Schedule
 
@@ -31,22 +29,13 @@ Please complete your RSVP below by **[Your Deadline Date]**.
 **Dancing:** [Time]
 
 
-:::
-
-::: {.g-col-12 .g-col-md-6}
-
 ### Dress Code
 
 [Your dress code - e.g., "Cocktail attire" or "Semi-formal"]
 
-**Suggestions:**  
-- Ladies: Cocktail dresses, elegant separates
-- Gentlemen: Suits or dress pants with dress shirt
-
-:::
-
-:::
 
 ### Questions?
+
+Please find more information in our [FAQs](../FAQs/FAQs.html).
 
 If you have any dietary restrictions, accessibility needs, or special requests, please include them in the notes section of your RSVP or contact us directly.

@@ -54,24 +54,3 @@ a {
 }
 
 
-/* Location page styling */
-.g-col-md-4 h2 {
-  font-size: 2.5rem;
-  font-weight: 700;
-  margin-bottom: 2rem;
-  color: #2c3e50;
-  margin-left: 4rem;
-}
-
-.g-col-md-4 img {
-  width: 70%;
-  margin-left: 4rem;
-  margin-bottom: 1.5rem;
-  border-radius: 8px;
-  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-}
-
-.g-col-md-8 {
-  padding-left: 0rem;
-}
-
