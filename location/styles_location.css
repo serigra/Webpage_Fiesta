@@ -6,6 +6,20 @@ body {
   padding: 3rem;
 }
 
+@media screen and (max-width: 768px) {
+  body {
+    margin: 1rem;
+    padding: 1rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  body {
+    margin: 0.5rem;
+    padding: 0.5rem;
+  }
+}
+
 h1 {
   color: #FF6A00;
   font-family: "Petrona";
@@ -14,6 +28,12 @@ h1 {
   margin-top: 0;
   margin-bottom: 1px;
   margin-left: 3.5rem;
+}
+
+@media screen and (max-width: 768px) {
+  h1 {
+    margin-left: 0;      /* ← remove the 3.5rem left push */
+  }
 }
 
 h2 {
