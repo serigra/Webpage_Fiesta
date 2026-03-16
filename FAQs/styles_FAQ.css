@@ -2,6 +2,7 @@
 /* ============ Format Title, ubtitles of the Location&Party-subpage ==================*/
 
 body {
+  font-family: 'Quicksand', sans-serif;
   margin: 5rem;
   padding: 3rem;
 }
@@ -20,15 +21,6 @@ body {
   }
 }
 
-h1 {
-  color: #FF6A00;
-  font-family: "Petrona";
-  font-size: 2.5rem;
-  font-weight: 500;
-  margin-top: 0;
-  margin-bottom: 1px;
-  margin-left: 3.5rem;
-}
 
 @media screen and (max-width: 768px) {
   h1 {
@@ -38,7 +30,7 @@ h1 {
 
 h2 {
   color: #7F8A80;
-  font-family: "Petrona";
+  font-family: 'Quicksand', sans-serif;
   font-size: 1.5rem;
   font-weight: 500;
   margin-top: 0;

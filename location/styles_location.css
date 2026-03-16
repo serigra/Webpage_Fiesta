@@ -2,6 +2,7 @@
 /* ============ Format Title, ubtitles of the Location&Party-subpage ==================*/
 
 body {
+  font-family: 'Quicksand', sans-serif;
   margin: 5rem;
   padding: 3rem;
 }
