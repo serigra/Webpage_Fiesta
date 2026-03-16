@@ -6,39 +6,13 @@ format:
     css: styles_location.css
 ---
 
+### Chäsalp / Restaurant Alter Tobelhof
 
-::: {.grid}
-
-::: {.g-col-12 .g-col-md-4}
-
-# Chäsalp - 8044 Zürich
-
-![](chasalp_outside.png)
-
-![](chasalp_inside.png)
-
-![](chasalp_outside2.png)
-
-:::
-
-::: {.g-col-12 .g-col-md-8}
-
-### Venue Details
-
-**Chäsalp / Restaurant Alter Tobelhof**  
 Tobelhofstrasse 236  
 8044 Zürich, Switzerland
 
-**Website:** [www.chaesalp.ch](https://www.chaesalp.ch)
+[www.chaesalp.ch](https://www.chaesalp.ch)
 
-Chäsalp is housed in a lovingly restored barn from the historic "Alter Tobelhof" farm. The restaurant sits at 617.02 meters above sea level, offering guests a unique Alpine hut atmosphere combined with spectacular views over Zürich and the surrounding countryside.
-
-**Features:**
-
-- Romantic garden terrace perfect for sunset cocktails
-- Cozy rustic interiors with traditional Swiss charm
-- Beautiful natural surroundings
-- Ample parking available on-site
 
 ### How to Get There
 

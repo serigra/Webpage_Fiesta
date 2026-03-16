@@ -6,21 +6,18 @@ format:
     css: styles_RSVP.css
 ---
 
-# We Hope You Can Join Us!
 
-We're so excited to celebrate our special day with you at Chäsalp. Please let us know if you'll be able to attend by **[Your Deadline Date]**.
+We would love for you to join us on
 
-If you have any questions or need assistance with your RSVP, please don't hesitate to contact us at [your-email@example.com] or [your phone number].
+### Saturday, 29th of August 2026 at **Chäsalp** (4pm onwards)
+\
 
----
-
-### Please Complete Your RSVP Below
+Please complete your RSVP below by **[Your Deadline Date]**.
 
 <div data-tf-live="01KHJV0AXM3YSVHR8ZJMQXNPD7"></div><script src="//embed.typeform.com/next/embed.js"></script>
 
 ---
 
-## Additional Information
 
 ::: {.grid}
 
@@ -32,6 +29,7 @@ If you have any questions or need assistance with your RSVP, please don't hesita
 **Cocktail Hour:** [Time]  
 **Reception & Dinner:** [Time]  
 **Dancing:** [Time]
+
 
 :::
 
@@ -49,14 +47,6 @@ If you have any questions or need assistance with your RSVP, please don't hesita
 
 :::
 
-### Need Accommodation?
-
-We've compiled a list of recommended hotels and accommodations on our [Accommodation page](accommodation.html).
-
 ### Questions?
 
 If you have any dietary restrictions, accessibility needs, or special requests, please include them in the notes section of your RSVP or contact us directly.
-
----
-
-*We can't wait to celebrate with you!*
