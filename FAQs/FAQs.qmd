@@ -14,10 +14,10 @@ Jump to a topic:
 
 - [When and Where?](#when-and-where)
 - [RSVP & Guest Information](#guest-info)
-- [Dress Code & Weather](#dress-code)
+- [Event Details](#wedding-day-details)
 - [Transportation & Parking](#transport)
-- [Event Day Details](#wedding-day-details)
-- [Gifts & Registry](#gifts-registry)
+- [Dress Code & Weather](#dress-code)
+- [Gifts](#gifts-registry)
 - [Accommodation](#accommodation)
 - [Contact & Other Questions](#contact-other-questions)
 
@@ -65,29 +65,28 @@ Please indicate any dietary restrictions, allergies, or special meal requirement
 
 ---
 
+
+
 ::: {.faq-section}
 
-## Dress Code & Weather {#dress-code}
+## Event Details
 
-**What should I wear?**
+**What's the schedule for the day?**
 
-Whatever makes you feel "happy and pretty and gaaay"!
+**[Time]** - Ceremony begins (please arrive 15 minutes early)  
+**[Time]** - Cocktail hour on the terrace  
+**[Time]** - Reception and dinner  
+**[Time]** - First dance and dancing  
+**[Time]** - Event concludes
 
+**Will the ceremony be indoors or outdoors?**
 
-
-**What's the weather like in Zürich in [Month]?**
-
-[Month] in Zürich typically has [average temperature] temperatures. We recommend bringing:
-- A light jacket or wrap for the evening
-- Comfortable shoes (there may be some walking (optionally running) on uneven surfaces)
-- An umbrella just in case
-
-The venue has both indoor and outdoor spaces, so we'll be comfortable regardless of weather!
+[We're planning an outdoor ceremony, weather permitting, with an indoor backup option. / The ceremony will be held indoors in the beautifully restored barn.]
 
 :::
 
----
 
+---
 
 
 ::: {.faq-section}
@@ -114,21 +113,22 @@ Yes! Chäsalp offers free off-street parking. However, if you're planning to enj
 
 ::: {.faq-section}
 
-## Event Details
+## Dress Code & Weather {#dress-code}
 
-**What's the schedule for the day?**
+**What should I wear?**
 
-**[Time]** - Ceremony begins (please arrive 15 minutes early)  
-**[Time]** - Cocktail hour on the terrace  
-**[Time]** - Reception and dinner  
-**[Time]** - First dance and dancing  
-**[Time]** - Event concludes
-
-**Will the ceremony be indoors or outdoors?**
-
-[We're planning an outdoor ceremony, weather permitting, with an indoor backup option. / The ceremony will be held indoors in the beautifully restored barn.]
+Whatever makes you feel "happy and pretty and gaaay"!
 
 
+
+**What's the weather like in Zürich in [Month]?**
+
+End of August in Zürich typically has [average temperature] temperatures. We recommend bringing:
+- A light jacket or wrap for the evening
+- Comfortable shoes (there may be some walking (optionally running) on uneven surfaces)
+- An umbrella just in case
+
+The venue has both indoor and outdoor spaces, so we'll be comfortable regardless of weather!
 
 :::
 
@@ -136,7 +136,7 @@ Yes! Chäsalp offers free off-street parking. However, if you're planning to enj
 
 ::: {.faq-section}
 
-## Gifts & Registry
+## Gifts
 
 **Do you have a registry?**
 
