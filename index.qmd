@@ -31,4 +31,10 @@ with love J <img src="heart_dark_green.png" class="inline-heart"> S
 <a href="RSVP/RSVP.html" class="register-btn">Register</a>
 </div>
 
+
+<div class="secondary-btn-wrapper">
+<a href="location/location.html" class="secondary-btn">Location</a>
+<a href="FAQs/FAQs.html" class="secondary-btn">FAQs</a>
+</div>
+
 :::
