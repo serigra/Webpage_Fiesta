@@ -143,8 +143,8 @@ video {
   .register-btn-wrapper a.register-btn,
   .register-btn-wrapper a.register-btn:link,
   .register-btn-wrapper a.register-btn:visited {
-    font-size: 0.9rem !important;
-    padding: 0.5rem 1.75rem !important;
+    font-size: 0.7rem !important;
+    padding: 0.4rem 1.7rem !important;
   }
 }
 
@@ -207,7 +207,7 @@ footer a,
 /* Tablets */
 @media (max-width: 992px) {
   .hero-content {
-    max-width: 90%;
+    max-width: 100%;
     padding: 1.5rem;
   }
 
@@ -228,7 +228,7 @@ footer a,
   }
 
   video {
-    width: 80%;            /* full width on small screens */
+    width: 100%;            /* full width on small screens */
   }
 
   .hero-content {
