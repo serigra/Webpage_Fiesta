@@ -130,6 +130,24 @@ video {
   transform: translateY(0px);
 }
 
+@media (max-width: 768px) {
+  .register-btn-wrapper a.register-btn,
+  .register-btn-wrapper a.register-btn:link,
+  .register-btn-wrapper a.register-btn:visited {
+    font-size: 1rem !important;
+    padding: 0.6rem 2rem !important;
+  }
+}
+
+@media (max-width: 480px) {
+  .register-btn-wrapper a.register-btn,
+  .register-btn-wrapper a.register-btn:link,
+  .register-btn-wrapper a.register-btn:visited {
+    font-size: 0.9rem !important;
+    padding: 0.5rem 1.75rem !important;
+  }
+}
+
 
 /* ============================= Navigation Bar ============================= */
 
