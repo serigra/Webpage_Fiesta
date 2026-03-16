@@ -56,3 +56,14 @@ a {
 }
 
 
+.typeform-wrapper {
+  height: 450px;
+  overflow: hidden;
+}
+
+@media (max-width: 768px) {
+  .typeform-wrapper {
+    height: 300px;
+    overflow: hidden;
+  }
+}

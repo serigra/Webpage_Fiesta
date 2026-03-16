@@ -16,10 +16,11 @@ We would love for you to join us on
 
 Please complete your RSVP below by **July 1st, 2026**.
 
-<div data-tf-live="01KHJV0AXM3YSVHR8ZJMQXNPD7"></div><script src="//embed.typeform.com/next/embed.js"></script>
+<div class="typeform-wrapper">
+  <div data-tf-live="01KHJV0AXM3YSVHR8ZJMQXNPD7"></div>
+</div>
+<script src="//embed.typeform.com/next/embed.js"></script>
 
-
-\
 
 ### Event Schedule
 
