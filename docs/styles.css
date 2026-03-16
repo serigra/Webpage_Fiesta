@@ -40,6 +40,7 @@ video {
 
 .hero-content {
   position: relative;
+  isolation: isolate;     /* ← fixes iOS z-index clipping */
   z-index: 10;
   width: 100%;
   max-width: 600px;
@@ -85,6 +86,9 @@ video {
   text-align: center;
   line-height: 1.2;
   margin: 0;
+  display: block;            /* ← ensures it sits below, not overlapping */
+  width: 100%;               /* ← takes full width of parent */
+  margin-top: 1rem;          /* ← adds breathing room between text and names */
 }
 
 .hero-names .inline-heart {
@@ -174,7 +178,7 @@ footer a,
   }
 
   video {
-    width: 100%;            /* full width on small screens */
+    width: 80%;            /* full width on small screens */
   }
 
   .hero-content {
