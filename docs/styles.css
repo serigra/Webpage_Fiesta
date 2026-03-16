@@ -1,6 +1,12 @@
 
+/* ================================ Fonts ================================= */
+
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+
+/* =========================================================================== */
+
 /* Hero section styling for landing page */
 .quarto-title-block {
   display: none;
@@ -12,6 +18,13 @@ body {
 }
 
 /* ================================ Video ================================= */
+
+.video-wrapper {
+  position: relative;
+  width: 600px;
+  max-width: 100%;
+  margin: 0 auto;
+}
 
 video {
   display: block;
@@ -37,13 +50,6 @@ video {
 }
 
 /* ================================ Text ================================== */
-
-.video-wrapper {
-  position: relative;
-  width: 600px;
-  max-width: 100%;
-  margin: 0 auto;
-}
 
 .hero-date {
   position: absolute;
@@ -110,7 +116,7 @@ video {
   font-weight: 400;
   padding: 0.5rem 0;
   text-align: center;
-  margin-bottom: 1rem;
+  margin-bottom: -0.5rem; 
 }
 
 .hero-names {
@@ -124,7 +130,7 @@ video {
   margin: 0;
   display: block;            /* ← ensures it sits below, not overlapping */
   width: 100%;               /* ← takes full width of parent */
-  margin-top: 1rem;          /* ← adds breathing room between text and names */
+  margin-top: 1.2rem;          /* ← adds breathing room between text and names */
 }
 
 .hero-names .inline-heart {
@@ -332,7 +338,7 @@ footer a,
   .hero-text {
     font-size: 1.1rem;
     padding: 0.5rem 0;
-    margin-bottom: 0.75rem;
+    margin-bottom: 0;
   }
 
   .hero-names {
