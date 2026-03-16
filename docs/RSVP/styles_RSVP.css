@@ -42,7 +42,7 @@ h3 {
   font-size: 1.5rem;
   font-weight: 500;
   margin-top: 0;
-  margin-bottom: 1px;
+ 
 }
 
 
@@ -73,7 +73,7 @@ a {
 
 @media (max-width: 768px) {
   .typeform-wrapper {
-    height: 600px; /* give more room on mobile */
+    height: 550px; /* give more room on mobile */
     margin-bottom: 0; /* remove bottom margin on mobile */
   }
 }
