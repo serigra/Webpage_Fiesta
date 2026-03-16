@@ -56,7 +56,3 @@ Journey time from Zürich city center: *15 minutes*.\
   loading="lazy" 
   referrerpolicy="no-referrer-when-downgrade">
 </iframe>
-
-:::
-
-:::
