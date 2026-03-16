@@ -99,6 +99,34 @@ video {
   display: inline-block;
 }
 
+/* ============================= Button ============================= */
+
+.register-btn {
+  display: inline-block;
+  margin-top: 1.5rem;
+  padding: 0.75rem 2.5rem;
+  background-color: #254036;
+  color: #EDEAE3 !important;
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 1.2rem;
+  letter-spacing: 0.15em;
+  text-decoration: none !important;
+  border: none;
+  border-radius: 50px;       /* ← pill shape */
+  cursor: pointer;
+  transition: background-color 0.2s ease, transform 0.1s ease;
+}
+
+.register-btn:hover {
+  background-color: #1e3329;
+  transform: translateY(-2px);
+}
+
+.register-btn:active {
+  transform: translateY(0px);
+}
+
+
 /* ============================= Navigation Bar ============================= */
 
 .navbar {
