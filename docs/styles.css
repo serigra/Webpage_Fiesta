@@ -130,7 +130,7 @@ video {
   margin: 0;
   display: block;            /* ← ensures it sits below, not overlapping */
   width: 100%;               /* ← takes full width of parent */
-  margin-top: 1.2rem;          /* ← adds breathing room between text and names */
+  margin-top: 0.8rem;          /* ← adds breathing room between text and names */
 }
 
 .hero-names .inline-heart {
