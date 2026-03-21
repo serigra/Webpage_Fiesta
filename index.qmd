@@ -19,9 +19,9 @@ format:
 ::: {.hero-content}
 
 ::: {.hero-text}
-We are looking forward to pop the bubbles, hit the dance floor and have a wonderful time with the best
-people.
-We would love for you to come celebrate with us as we toast to love, friendship and most importantly, to you!
+ We’re really looking forward to pop the bubbles, celebrating, and simply enjoying the evening with our favorite people.
+
+It would mean a lot to us if you joined us — raising a glass to love & friendship.
 :::
 
 ::: {.hero-names}
