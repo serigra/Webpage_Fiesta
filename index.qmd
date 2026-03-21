@@ -29,7 +29,7 @@ with love J <img src="heart_dark_green.png" class="inline-heart"> S
 :::
 
 <div class="register-btn-wrapper">
-<a href="RSVP/RSVP.html" class="register-btn">Register</a>
+<a href="RSVP/RSVP.html" class="register-btn">RSVP · ANMELDUNG</a>
 </div>
 
 

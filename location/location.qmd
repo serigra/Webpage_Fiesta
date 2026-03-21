@@ -56,3 +56,16 @@ Journey time from Zürich city center: *15 minutes*.\
   loading="lazy" 
   referrerpolicy="no-referrer-when-downgrade">
 </iframe>
+
+
+\
+
+<div class="secondary-btn-wrapper">
+<a href="/RSVP/RSVP.html" class="secondary-btn">RSVP · ANMELDUNG</a>
+</div>
+
+
+<div class="secondary-btn-wrapper">
+<a href="/index.html" class="secondary-btn">Home</a>
+<a href="/FAQs/FAQs.html" class="secondary-btn">FAQs</a>
+</div>

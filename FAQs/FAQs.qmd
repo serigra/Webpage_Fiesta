@@ -36,10 +36,13 @@ Jump to a topic:
 **When is the party?**\
 Saturday, 29th of August, 2026, 4pm onwards.
 
-For anyone who would like to arrive a day early and enjoy some time together before the main event, we will be meeting at the Grain Pub in Zurich (Kirche Fluntern) on Friday evening - 28th of August, for some drinks and snacks from 6pm onwards. Please let us know via the [RSVP](/RSVP/RSVP.qmd) whether you would like to join.
+Join us for a relaxed get-together the evening before!
+We’ll meet at the [Grain Pub](https://www.grain.ch/) (Kirche Fluntern, Zurich) on Friday, August 28, from 6pm for drinks and snacks.
+Let us know via [RSVP](/RSVP/RSVP.qmd) if you’d like to join.
+
 
 **Where is the party?**\
-The main event will be held at Chäsalp, Tobelhofstrasse 236, 8044 Zürich. Find the detailed directions under [location](/location/location.qmd).
+Chäsalp | Restaurant Tobelhof, Tobelhofstrasse 236, 8044 Zürich. Find the detailed directions under [location](/location/location.qmd).
 
 :::
 
@@ -62,7 +65,7 @@ We've carefully curated our guest list based on venue capacity. If your invitati
 We love your little ones, but we've decided to make our wedding an adults-only celebration. 
 
 **What if I have dietary restrictions?**\
-Please indicate any dietary restrictions, allergies, or special meal requirements in your [RSVP](/RSVP/RSVP.qmd) form. The caterers from Chäsalp will do their best to accommodate your needs.
+Please indicate any dietary restrictions, allergies, or special meal requirements in your [RSVP](/RSVP/RSVP.qmd) form.
 
 :::
 
@@ -79,7 +82,8 @@ Please indicate any dietary restrictions, allergies, or special meal requirement
 
 **Friday, 28th August 2026**\
 Welcome Drinks @Grain Pub.\
-For anyone who would like to arrive a day early and enjoy some time together before the main event, we will be meeting at the [Grain Pub](https://www.grain.ch/) in Zurich (Kirche Fluntern) on Friday evening for some drinks and snacks from **6pm onwards**. Please let us know via the [RSVP](/RSVP/RSVP.qmd) whether you would like to join.\
+Join us for a relaxed get-together the evening before!
+We’ll meet at the [Grain Pub](https://www.grain.ch/) (Kirche Fluntern, Zurich) on Friday evening from **6pm** for drinks and snacks. Let us know via [RSVP](/RSVP/RSVP.qmd) if you’d like to join.\
 
 **Staturday, 29th August 2026**\
 Main Event @Chäsalp. See [location](/location/location.qmd).\
@@ -126,13 +130,13 @@ Yes! Chäsalp offers free off-street parking.
 Whatever makes you feel "happy and pretty and gaaay"!
 
 **What's the weather like in Zurich at end of August?**\
-End of August in Zürich typically has [average temperature] temperatures. We recommend bringing:\
 
-- A light jacket or wrap for the evening
-- Comfortable shoes (there may be some walking (optionally running) on uneven surfaces)
-- An umbrella just in case
+Late August in Zürich is usually around 20°C. Maybe bring:
+- A light jacket for the evening
+- Comfy shoes (some uneven walking—maybe even a run!)
+- An umbrella, just in case
 
-The venue has both indoor and outdoor spaces, so we'll be comfortable regardless of weather!
+The venue has indoor + outdoor space, so we’re good whatever the weather 👍
 
 :::
 
@@ -182,4 +186,16 @@ Please contact Nadja or Dalia to discuss your specific needs.
 
 **I'm traveling from abroad. What do I need to know?**\
 
-....
+:::
+
+
+\
+
+<div class="secondary-btn-wrapper">
+<a href="/RSVP/RSVP.html" class="secondary-btn">RSVP · ANMELDUNG</a>
+</div>
+
+<div class="secondary-btn-wrapper">
+<a href="/index.html" class="secondary-btn">Home</a>
+<a href="/location/location.html" class="secondary-btn">Location</a>
+</div>

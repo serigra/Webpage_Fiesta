@@ -49,3 +49,16 @@ Main Event @Chäsalp. See [location](/location/location.qmd).\
 Please find more information in our [FAQs](../FAQs/FAQs.html).
 
 If you have any dietary restrictions, accessibility needs, or special requests, please include them in the notes section of your RSVP or contact us directly.
+
+\
+
+<div class="secondary-btn-wrapper">
+<a href="/index.html" class="secondary-btn">Home</a>
+</div>
+
+
+<div class="secondary-btn-wrapper">
+<a href="/location/location.html" class="secondary-btn">Location</a>
+<a href="/FAQs/FAQs.html" class="secondary-btn">FAQs</a>
+</div>
+

@@ -151,7 +151,6 @@ video {
 .register-btn-wrapper a.register-btn,
 .register-btn-wrapper a.register-btn:link,
 .register-btn-wrapper a.register-btn:visited,
-.register-btn-wrapper a.register-btn:hover,
 .register-btn-wrapper a.register-btn:active {
   display: inline-block !important;
   padding: 0.75rem 2.5rem !important;
@@ -166,6 +165,11 @@ video {
   cursor: pointer !important;
   -webkit-appearance: none !important;
   appearance: none !important;
+}
+
+
+.register-btn-wrapper a.register-btn:hover {
+  transform: translateY(-2px) !important;
 }
 
 .register-btn:active {
@@ -203,7 +207,6 @@ video {
 .secondary-btn-wrapper a.secondary-btn,
 .secondary-btn-wrapper a.secondary-btn:link,
 .secondary-btn-wrapper a.secondary-btn:visited,
-.secondary-btn-wrapper a.secondary-btn:hover,
 .secondary-btn-wrapper a.secondary-btn:active {
   display: inline-block !important;
   padding: 0.65rem 2rem !important;
@@ -223,7 +226,8 @@ video {
 
 .secondary-btn-wrapper a.secondary-btn:hover {
   border-color: #254036 !important;
-  background-color: #EDEAE3 !important;   /* lighter green */
+  background-color: #254036 !important;   /* lighter green */
+  color: #EDEAE3 !important;   /* lighter green */
   transform: translateY(-2px);
 }
 
