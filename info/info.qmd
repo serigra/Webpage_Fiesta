@@ -14,18 +14,19 @@ format:
   <a href="/info/info.html" class="secondary-btn secondary-btn--active">INFO</a>
 </div>
 
-Find all party details below. If you’re missing anything, please contact Nadja (Janneke’s maid of honor) or Dalia (Sereina’s maid of honor).
+::: small-space
+:::
+
+Find all party details below. If you’re missing anything, please contact Nadja (Janneke’s maid of honor) or Dalia (Sereina’s maid of honor), find contacts below.
 
 Jump to a topic:
 
-- [When and Where?](#when-and-where)
+- [Event Details](#event-details)
+- [Location & Transportation](#location)
 - [RSVP & Guest Information](#guest-info)
-- [Event Details](#wedding-day-details)
-- [Transportation & Parking](#transport)
-- [Dress Code & Weather](#dress-code)
+- [Dress Code](#dress-code)
 - [Gifts](#gifts-registry)
-- [Accommodation](#accommodation)
-- [Contact & Other Questions](#contact-other-questions)
+- [Contact](#contact)
 
 ::: medium-space
 :::
@@ -34,21 +35,65 @@ Jump to a topic:
 
 ::: {.faq-section}
 
-## When and Where? {#when-and-where}
+## Event Details {#event-details}
 
 ::: small-space
 :::
 
-**When is the party?**\
-Saturday, 29th of August, 2026, 4pm onwards.
+**Staturday, 29th August 2026**\
+Main Event @Chäsalp, Zürich.\
+*4pm onwards* Welcome Drinks \
+*7pm - 10pm* Dinner \
+*10pm - open end* Dancing 
 
+**Friday, 28th August 2026**\
+Welcome Drinks @[Grain Pub](https://www.grain.ch/), Zürich Fluntern.\
 Join us for a relaxed get-together the evening before!
-We’ll meet at the [Grain Pub](https://www.grain.ch/) (Kirche Fluntern, Zurich) on Friday, August 28, from 6pm for drinks and snacks.
-Let us know via [RSVP](/RSVP/RSVP.qmd) if you’d like to join.
+We’ll meet at the GrainPub on Friday evening from **6pm** for drinks and snacks. Let us know via [RSVP](/RSVP/RSVP.qmd) if you’d like to join.\
 
 
-**Where is the party?**\
-Chäsalp | Restaurant Tobelhof, Tobelhofstrasse 236, 8044 Zürich. Find the detailed directions under [location](/location/location.qmd).
+
+:::
+
+
+::: {.faq-section}
+
+## Location & Transportation {#location}
+
+::: small-space
+:::
+
+
+**Location**\
+Chäsalp | Restaurant Alter Tobelhof. 
+Tobelhofstrasse 236, 8044 Zürich
+[www.chaesalp.ch](https://www.chaesalp.ch)
+
+**How to get there?**
+
+**By Car**: There is free parking available at the venue.
+Journey time from Zürich city: *15 min.*\
+
+
+
+**By Public Transport**: Check the [SBB Journey Planner](https://www.sbb.ch/de?stops=Z%C3%BCrich+HB_I8503000~Z%C3%BCrich,+Tobelhof_I8591396).
+Journey time from Zürich city: *30 min.*\
+
+From Chäsalp to Zurich city center there are connections throughout the night.
+We’re also happy to help arrange a taxi or Uber.
+
+::: medium-space
+:::
+
+<iframe 
+  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2700.547!2d8.587921!3d47.3820486!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x479aa0f272036387%3A0x7729e11af3c7904f!2sCh%C3%A4salp!5e0!3m2!1sen!2sch!4v1234567890" 
+  width="100%" 
+  height="400" 
+  style="border:0;" 
+  allowfullscreen="" 
+  loading="lazy" 
+  referrerpolicy="no-referrer-when-downgrade">
+</iframe>
 
 :::
 
@@ -75,59 +120,12 @@ Please indicate any dietary restrictions, allergies, or special meal requirement
 
 :::
 
----
-
-
-
-::: {.faq-section}
-
-## Event Details
-
-::: small-space
-:::
-
-**Friday, 28th August 2026**\
-Welcome Drinks @Grain Pub.\
-Join us for a relaxed get-together the evening before!
-We’ll meet at the [Grain Pub](https://www.grain.ch/) (Kirche Fluntern, Zurich) on Friday evening from **6pm** for drinks and snacks. Let us know via [RSVP](/RSVP/RSVP.qmd) if you’d like to join.\
-
-**Staturday, 29th August 2026**\
-Main Event @Chäsalp. See [location](/location/location.qmd).\
-*Apéro:* 4pm - 7pm\
-*Dinner:* 7pm - 10pm\
-*Dancing:* 10pm - open end
-
-:::
-
-
----
-
-
-::: {.faq-section}
-
-## Transportation & Parking {#transport}
-
-::: small-space
-:::
-
-**How do I get to the venue?**\
-Detailed directions by public transport and car you find under [location](/location/location.qmd).
-
-**Is there parking available?**\
-Yes! Chäsalp offers free off-street parking.
-
-**Will there be transportation provided?**\
-[Option 1: We will not be providing shuttle service, but taxis and Uber are readily available in the area.]
-
-[Option 2: We will be arranging shuttle service from [location] to the venue. More details will be shared closer to the date.]
-
-:::
 
 ---
 
 ::: {.faq-section}
 
-## Dress Code & Weather {#dress-code}
+## Dress Code {#dress-code}
 
 ::: small-space
 :::
@@ -135,7 +133,6 @@ Yes! Chäsalp offers free off-street parking.
 **What should I wear?**\
 Whatever makes you feel "happy and pretty and gaaay"!
 
-**What's the weather like in Zurich at end of August?**\
 Late August in Zürich is usually around 20°C. Maybe bring a light jacket and some
 comfy shoes (some uneven walking - maybe even some running).
 The venue has indoor and outdoor space, so we’re good whatever the weather.
@@ -151,42 +148,22 @@ The venue has indoor and outdoor space, so we’re good whatever the weather.
 ::: small-space
 :::
 
-**Can I bring gifts?**\
 Having you celebrate with us is what matters most to us — no gifts expected.\ 
-For those who would still like to contribute, there will be two optional options at the celebration: a donation to a charitable organization (tbd) and/or a contribution towards our new bed.
+For those who would still like to contribute, there will be two options at the celebration: a donation to a charitable organization (tbd) and/or a contribution towards our new bed. 
 
 :::
-
----
 
 
 ::: {.faq-section}
 
-## Accommodation
+## Contact {#contact}
 
 ::: small-space
 :::
 
-**Where should we stay?**\
-If you don't have a place to stay yet, please get in touch with Nadja and/or Dalia.
+**Nadja** (Janneke’s maid of honor)\
+ +41 79 XXX XX XX
 
-
+**Dalia** (Sereina’s maid of honor)\
++41 79 XXX XX XX
 :::
-
----
-
-::: {.faq-section}
-
-## Contact & Other Questions {#contact-other-questions}
-
-::: small-space
-:::
-
-**I have mobility concerns. Is the venue accessible?**\
-Please contact Nadja or Dalia to discuss your specific needs.
-
-
-**I'm traveling from abroad. What do I need to know?**\
-
-:::
-

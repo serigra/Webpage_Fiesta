@@ -81,7 +81,7 @@
     "href": "info/info.html",
     "title": "Info",
     "section": "",
-    "text": "RSVP · AN/ ABMELDUNG\nFind all party details below. If you’re missing anything, please contact Nadja (Janneke’s maid of honor) or Dalia (Sereina’s maid of honor).\nJump to a topic:"
+    "text": "RSVP · AN/ ABMELDUNG\nFind all party details below. If you’re missing anything, please contact Nadja (Janneke’s maid of honor) or Dalia (Sereina’s maid of honor), find contacts below.\nJump to a topic:"
   },
   {
     "objectID": "info/info.html#when-and-where",
@@ -102,7 +102,7 @@
     "href": "info/info.html#event-details",
     "title": "Info",
     "section": "Event Details",
-    "text": "Event Details\n\n\n\nFriday, 28th August 2026\nWelcome Drinks @Grain Pub.\nJoin us for a relaxed get-together the evening before! We’ll meet at the Grain Pub (Kirche Fluntern, Zurich) on Friday evening from 6pm for drinks and snacks. Let us know via RSVP if you’d like to join.\n\nStaturday, 29th August 2026\nMain Event @Chäsalp. See location.\nApéro: 4pm - 7pm\nDinner: 7pm - 10pm\nDancing: 10pm - open end"
+    "text": "Event Details\n\n\n\nStaturday, 29th August 2026\nMain Event @Chäsalp, Zürich.\n4pm onwards Welcome Drinks\n7pm - 10pm Dinner\n10pm - open end Dancing\nFriday, 28th August 2026\nWelcome Drinks @Grain Pub, Zürich Fluntern.\nJoin us for a relaxed get-together the evening before! We’ll meet at the GrainPub on Friday evening from 6pm for drinks and snacks. Let us know via RSVP if you’d like to join."
   },
   {
     "objectID": "info/info.html#transport",
@@ -115,15 +115,15 @@
     "objectID": "info/info.html#dress-code",
     "href": "info/info.html#dress-code",
     "title": "Info",
-    "section": "Dress Code & Weather",
-    "text": "Dress Code & Weather\n\n\n\nWhat should I wear?\nWhatever makes you feel “happy and pretty and gaaay”!\nWhat’s the weather like in Zurich at end of August?\nLate August in Zürich is usually around 20°C. Maybe bring a light jacket and some comfy shoes (some uneven walking - maybe even some running). The venue has indoor and outdoor space, so we’re good whatever the weather."
+    "section": "Dress Code",
+    "text": "Dress Code\n\n\n\nWhat should I wear?\nWhatever makes you feel “happy and pretty and gaaay”!\nLate August in Zürich is usually around 20°C. Maybe bring a light jacket and some comfy shoes (some uneven walking - maybe even some running). The venue has indoor and outdoor space, so we’re good whatever the weather."
   },
   {
     "objectID": "info/info.html#gifts",
     "href": "info/info.html#gifts",
     "title": "Info",
     "section": "Gifts",
-    "text": "Gifts\n\n\n\nCan I bring gifts?\nHaving you celebrate with us is what matters most to us — no gifts expected.  For those who would still like to contribute, there will be two optional options at the celebration: a donation to a charitable organization (tbd) and/or a contribution towards our new bed."
+    "text": "Gifts\n\n\n\nHaving you celebrate with us is what matters most to us — no gifts expected.  For those who would still like to contribute, there will be two options at the celebration: a donation to a charitable organization (tbd) and/or a contribution towards our new bed."
   },
   {
     "objectID": "info/info.html#accommodation",
@@ -138,5 +138,19 @@
     "title": "Info",
     "section": "Contact & Other Questions",
     "text": "Contact & Other Questions\n\n\n\nI have mobility concerns. Is the venue accessible?\nPlease contact Nadja or Dalia to discuss your specific needs.\nI’m traveling from abroad. What do I need to know?"
+  },
+  {
+    "objectID": "info/info.html#contact",
+    "href": "info/info.html#contact",
+    "title": "Info",
+    "section": "Contact",
+    "text": "Contact\n\n\n\nNadja (Janneke’s maid of honor)\n+41 79 XXX XX XX\nDalia (Sereina’s maid of honor)\n+41 79 XXX XX XX"
+  },
+  {
+    "objectID": "info/info.html#location",
+    "href": "info/info.html#location",
+    "title": "Info",
+    "section": "Location & Transportation",
+    "text": "Location & Transportation\n\n\n\nLocation\nChäsalp | Restaurant Alter Tobelhof. Tobelhofstrasse 236, 8044 Zürich www.chaesalp.ch\nHow to get there?\nBy Car: There is free parking available at the venue. Journey time from Zürich city: 15 min.\n\nBy Public Transport: Check the SBB Journey Planner. Journey time from Zürich city: 30 min.\n\nFrom Chäsalp to Zurich city center there are connections throughout the night. We’re also happy to help arrange a taxi or Uber."
   }
 ]

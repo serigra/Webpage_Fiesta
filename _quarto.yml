@@ -13,22 +13,18 @@ website:
     type: overlay
   page-footer: 
         #background: 'transparent'
-        center: © 2026  &middot; Made with [![](https://www.r-project.org/Rlogo.png){fig-alt="R" width=25px}](https://www.r-project.org/)  and [![](https://quarto.org/quarto.png){fig-alt="Quarto" width=65px}](https://quarto.org/) 
+        center: © 2026  &middot; Made with <span style="color:#e63946;">♥</span>, [![](https://www.r-project.org/Rlogo.png){fig-alt="R" width=25px}](https://www.r-project.org/)  and [![](https://quarto.org/quarto.png){fig-alt="Quarto" width=65px}](https://quarto.org/) <br> Check out the code on [![](https://cdnjs.cloudflare.com/ajax/libs/simple-icons/9.0.0/github.svg){fig-alt="GitHub" width=25px}](https://github.com/serigra/Webpage_Fiesta)
   navbar:
     title: false # use "false" if not using website title on left side of navbar...
     search: false
     #logo: home_polygon_1.png # logo on top left, next to website title
     right:
       - href: index.qmd
-        text: home
-      - href: location/location.qmd
-        text: location
+        text: HOME
       - href: RSVP/RSVP.qmd
         text: RSVP
       - href: info/info.qmd
         text: INFO
-      - icon: github
-        href: https://github.com/serigra/Webpage_Fiesta
     
 format:
   html:
