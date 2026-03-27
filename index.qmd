@@ -13,28 +13,29 @@ format:
     <source src="GIF4_locations.webm" type="video/webm">
     <source src="GIF4_locations.mp4" type="video/mp4">
   </video>
-  <div class="hero-date">29 · 08 · 2026</div>
 </div>
 
 ::: {.hero-content}
+::: {.hero-header}
 
-::: {.hero-text}
- We’re really looking forward to pop the bubbles, celebrating, and simply enjoying the evening with our favorite people.\
-It would mean a lot to us if you joined us — raising a glass to love & friendship.
+29th August 2026\
+Chäsalp Zürich
+
 :::
-
+::: {.hero-text}
+ We're really looking forward to pop the bubbles and enjoying the evening with our favorite people. It would mean a lot to us if you joined us to raise a glass to love & friendship.
+:::
 ::: {.hero-names}
 with love J <img src="heart_dark_green.png" class="inline-heart"> S
 :::
 
 <div class="register-btn-wrapper">
-<a href="RSVP/RSVP.html" class="register-btn">RSVP · ANMELDUNG</a>
+<a href="RSVP/RSVP.html" class="register-btn">RSVP · AN/ ABMELDUNG</a>
 </div>
 
 
 <div class="secondary-btn-wrapper">
-<a href="location/location.html" class="secondary-btn">Location</a>
-<a href="FAQs/FAQs.html" class="secondary-btn">FAQs</a>
+<a href="info/info.html" class="secondary-btn">INFO</a>
 </div>
 
 :::

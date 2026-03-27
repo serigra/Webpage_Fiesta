@@ -1,14 +1,20 @@
 ---
-title: "FAQ"
+title: "Info"
 format:
   html:
     toc: false
-    css: styles_FAQ.css
+    css: styles_info.css
 ---
 
-FAQs - Frequently Asked Questions
+<div class="secondary-btn-wrapper">
+  <a href="/RSVP/RSVP.html" class="secondary-btn">RSVP · AN/ ABMELDUNG</a>
+</div>
+<div class="secondary-btn-wrapper">
+  <a href="/index.html" class="secondary-btn">HOME</a>
+  <a href="/info/info.html" class="secondary-btn secondary-btn--active">INFO</a>
+</div>
 
-We've compiled answers to some common questions. If you don't find what you're looking for, please don't hesitate to reach out to us directly!
+Find all party details below. If you’re missing anything, please contact Nadja (Janneke’s maid of honor) or Dalia (Sereina’s maid of honor).
 
 Jump to a topic:
 
@@ -184,14 +190,3 @@ Please contact Nadja or Dalia to discuss your specific needs.
 
 :::
 
-
-\
-
-<div class="secondary-btn-wrapper">
-<a href="/RSVP/RSVP.html" class="secondary-btn">RSVP · ANMELDUNG</a>
-</div>
-
-<div class="secondary-btn-wrapper">
-<a href="/index.html" class="secondary-btn">Home</a>
-<a href="/location/location.html" class="secondary-btn">Location</a>
-</div>

@@ -51,35 +51,6 @@ video {
 
 /* ================================ Text ================================== */
 
-.hero-date {
-  position: absolute;
-  bottom: 2rem;
-  right: 1.5rem;
-  color: #254036;
-  font-family: 'Quicksand';  /* fixed: was 'EB Cormorant' */
-  font-size: 2rem;
-  font-weight: 400;
-  letter-spacing: 0.01em;
-  z-index: 10;
-}
-
-/* Mobile */
-@media (max-width: 768px) {
-  .hero-date {
-    font-size: 1.3rem;
-    bottom: 1rem;
-    right: 1rem;
-  }
-}
-
-@media (max-width: 480px) {
-  .hero-date {
-    font-size: 1.1rem;
-    bottom: 0.75rem;
-    right: 0.75rem;
-  }
-}
-
 .hero-content {
   position: relative;
   isolation: isolate;     /* ← fixes iOS z-index clipping */
@@ -95,7 +66,7 @@ video {
 .hero-content::before {
   content: '';
   position: absolute;
-  top: 45%;
+  top: 55%;
   left: 75%;
   transform: translate(-50%, -50%);
   width: 80%;                        /* adjust size to taste */
@@ -139,6 +110,29 @@ video {
   vertical-align: middle;
   margin: 0 -0.4em;
   display: inline-block;
+}
+
+.hero-header {
+  color: #254036;
+  font-family: 'Merriweather', serif;  /* fixed: was 'EB Cormorant' */
+  font-size: 3rem;
+  font-weight: 400;
+  letter-spacing: 0.007em;
+  text-align: center;
+  margin-bottom: 1rem;
+  margin-top: -1rem; /* ← pull it up a bit */
+}
+
+@media (max-width: 768px) {
+  .hero-header {
+    font-size: 2.2rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero-header {
+    font-size: 1.9rem;
+  }
 }
 
 /* ============================= Buttons ============================= */
@@ -201,7 +195,8 @@ video {
   display: flex;
   justify-content: center;
   gap: 1rem;
-  margin-top: 1rem;
+  margin-top: 0.4rem;
+  flex-wrap: wrap;
 }
 
 .secondary-btn-wrapper a.secondary-btn,
@@ -211,7 +206,7 @@ video {
   display: inline-block !important;
   padding: 0.65rem 2rem !important;
   border: 2px solid #254036 !important;
-  background-color: #EDEAE3 !important;   /* lighter green */
+  background-color: #EDEAE3 !important;
   color: #254036 !important;
   font-family: 'Bebas Neue', sans-serif !important;
   font-size: 1.0rem !important;
@@ -226,9 +221,20 @@ video {
 
 .secondary-btn-wrapper a.secondary-btn:hover {
   border-color: #254036 !important;
-  background-color: #254036 !important;   /* lighter green */
-  color: #EDEAE3 !important;   /* lighter green */
+  background-color: #254036 !important;
+  color: #EDEAE3 !important;
   transform: translateY(-2px);
+}
+
+/* Active / current page */
+.secondary-btn-wrapper a.secondary-btn--active,
+.secondary-btn-wrapper a.secondary-btn--active:link,
+.secondary-btn-wrapper a.secondary-btn--active:visited,
+.secondary-btn-wrapper a.secondary-btn--active:active {
+  background-color: #254036 !important;
+  color: #EDEAE3 !important;
+  cursor: default !important;
+  pointer-events: none !important;
 }
 
 /* Mobile */

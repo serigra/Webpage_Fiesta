@@ -16,7 +16,7 @@ website:
         center: © 2026  &middot; Made with [![](https://www.r-project.org/Rlogo.png){fig-alt="R" width=25px}](https://www.r-project.org/)  and [![](https://quarto.org/quarto.png){fig-alt="Quarto" width=65px}](https://quarto.org/) 
   navbar:
     title: false # use "false" if not using website title on left side of navbar...
-    search: true
+    search: false
     #logo: home_polygon_1.png # logo on top left, next to website title
     right:
       - href: index.qmd
@@ -25,8 +25,8 @@ website:
         text: location
       - href: RSVP/RSVP.qmd
         text: RSVP
-      - href: FAQs/FAQs.qmd
-        text: FAQs
+      - href: info/info.qmd
+        text: INFO
       - icon: github
         href: https://github.com/serigra/Webpage_Fiesta
     
