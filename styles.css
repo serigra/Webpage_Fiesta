@@ -89,6 +89,12 @@ html {
   scroll-behavior: smooth;
 }
 
+/* prevents horizontal scrolling entirely by hiding any content that overflows the viewport width */ 
+html, body {
+  overflow-x: hidden;
+  max-width: 100%;
+}
+
 
 /* =============================================================================
    4. LAYOUT
