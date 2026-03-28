@@ -117,7 +117,7 @@ We love your little ones, but we've decided to make this event an adults-only ce
 :::
 
 
----
+
 
 ::: {.faq-section}
 
@@ -135,7 +135,7 @@ The venue has indoor and outdoor space, so we’re good whatever the weather.
 
 :::
 
----
+
 
 ::: {.faq-section}
 
@@ -163,6 +163,8 @@ Please don’t go overboard!
 ::: {.faq-section}
 
 ## Contact {#contact}
+
+For any other question you may have, please contact one or both of the two:
 
 ::: small-space
 :::
