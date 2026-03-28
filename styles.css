@@ -1,42 +1,101 @@
 
-/* ================================ Fonts ================================= */
+/* =============================================================================
+   TABLE OF CONTENTS
+   =============================================================================
+
+   1.  Fonts
+   2.  CSS Custom Properties (Design Tokens)
+   3.  Base / Reset
+   4.  Layout
+       4a. Page wrapper (#quarto-content)
+       4b. Hero content block
+   5.  Typography
+       5a. Hero header (date & location)
+       5b. Hero text (short description)
+       5c. Hero names (signature line)
+   6.  Media (video)
+   7.  Buttons
+       7a. Primary register button
+       7b. Secondary navigation buttons
+   8.  Navigation bar
+   9.  Footer
+   10. Utility / Spacing helpers
+   11. Responsive overrides
+       11a. Tablets  (≤ 992 px)
+       11b. Mobile   (≤ 768 px)
+       11c. Small    (≤ 480 px)
+   12. Misc fixes
+
+   ============================================================================= */
+
+
+/* =============================================================================
+   1. FONTS
+   ============================================================================= */
 
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
 
 
-/* =========================================================================== */
+/* =============================================================================
+   2. CSS CUSTOM PROPERTIES (DESIGN TOKENS)
+   =============================================================================
+   Centralised values so colours, fonts and common sizes can be changed in one
+   place and cascade to every component that references them.
+   ============================================================================= */
 
-/* Hero section styling for landing page */
-.quarto-title-block {
-  display: none;
+:root {
+  /* Colour palette */
+  --color-dark-green:   #254036;   /* primary brand / CTA background */
+  --color-mid-green:    #335848;   /* nav links, secondary accents */
+  --color-deep-green:   #1e3329;   /* body text on light backgrounds */
+  --color-cream:        #EDEAE3;   /* page background / button text */
+
+  /* Typography */
+  --font-serif:         'Merriweather', serif;
+  --font-sans:          'Quicksand', sans-serif;
+  --font-display:       'Bebas Neue', sans-serif;   /* buttons */
+
+  /* Spacing scale */
+  --space-xs:   0.4rem;
+  --space-sm:   0.75rem;
+  --space-md:   1.5rem;
+  --space-lg:   2.5rem;
+  --space-xl:   3rem;
+
+  /* Layout */
+  --content-max-width: 600px;
 }
+
+
+/* =============================================================================
+   3. BASE / RESET
+   =============================================================================
+   Minimal resets needed to override Quarto defaults for the landing page.
+   ============================================================================= */
 
 body {
   margin: 0;
   padding: 0;
 }
 
-/* ================================ Video ================================= */
-
-.video-wrapper {
-  position: relative;
-  width: 600px;
-  max-width: 100%;
-  margin: 0 auto;
+/* Hide the auto-generated Quarto title block on the landing page */
+.quarto-title-block {
+  display: none;
 }
 
-video {
-  display: block;
-  margin: 0 auto;
-  width: 600px;
-  max-width: 100%;
-  height: auto;
-  -webkit-mask-image: radial-gradient(ellipse 90% 85% at 50% 50%, black 60%, transparent 100%);
-  mask-image: radial-gradient(ellipse 90% 85% at 50% 50%, black 60%, transparent 100%);
+/* Smooth anchor scrolling across the whole site */
+html {
+  scroll-behavior: smooth;
 }
 
-/* ================================ Layout ================================ */
+
+/* =============================================================================
+   4. LAYOUT
+   ============================================================================= */
+
+/* 4a. Page wrapper -----------------------------------------------------------
+   Full-height flex column; centres the hero content vertically at the top.     */
 
 #quarto-content {
   min-height: calc(100vh - 120px);
@@ -49,15 +108,18 @@ video {
   padding-bottom: 1rem;
 }
 
-/* ================================ Text ================================== */
+/* 4b. Hero content block -----------------------------------------------------
+   Centred card that wraps all hero text and buttons.
+   The ::before pseudo-element renders the decorative neon heart behind the
+   content without affecting document flow.                                       */
 
 .hero-content {
   position: relative;
-  isolation: isolate;     /* ← fixes iOS z-index clipping */
+  isolation: isolate;        /* fixes iOS z-index clipping */
   z-index: 10;
   width: 100%;
-  max-width: 600px;
-  padding: 1.5rem 2rem;
+  max-width: var(--content-max-width);
+  padding: var(--space-md) 2rem;
   text-align: center;
   margin: 0 auto;
   box-sizing: border-box;
@@ -69,41 +131,64 @@ video {
   top: 55%;
   left: 75%;
   transform: translate(-50%, -50%);
-  width: 80%;                        /* adjust size to taste */
-  padding-bottom: 80%;               /* makes it square — match to your image ratio */
+  width: 50%;
+  padding-bottom: 80%;           /* preserves the image's aspect ratio */
   background-image: url('heart_neon_filled.png');
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-  z-index: -1;                       /* behind all content */
+  z-index: -1;                   /* sits behind all hero content */
   pointer-events: none;
 }
 
-.hero-text {
-  color: #1e3329;
-  font-family: 'Quicksand', sans-serif;
-  font-size: 1.5rem;
-  line-height: 1.5;
+
+/* =============================================================================
+   5. TYPOGRAPHY
+   ============================================================================= */
+
+/* 5a. Hero header — date & location -----------------------------------------*/
+
+.hero-header {
+  color: var(--color-dark-green);
+  font-family: var(--font-serif);
+  font-size: 3rem;
   font-weight: 400;
-  padding: 0.5rem 0;
+  letter-spacing: 0.007em;
   text-align: center;
-  margin-bottom: -0.5rem; 
+  margin-top: -1rem;    /* slight upward pull to tighten spacing after video */
+  margin-bottom: 1rem;
 }
 
+/* 5b. Hero text — short descriptive copy ------------------------------------*/
+
+.hero-text {
+  color: var(--color-deep-green);
+  font-family: var(--font-sans);
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 1.5;
+  text-align: center;
+  padding: 0.5rem 0;
+  margin-bottom: -0.5rem;
+}
+
+/* 5c. Hero names — "With love, J & S" signature ----------------------------*/
+
 .hero-names {
-  font-family: 'Merriweather', serif;  /* fixed: was 'EB Cormorant' */
-  color: #1e3329;
+  font-family: var(--font-serif);
+  color: var(--color-deep-green);
   font-size: 3rem;
   font-weight: 400;
   letter-spacing: 0.007em;
   text-align: center;
   line-height: 1.2;
   margin: 0;
-  display: block;            /* ← ensures it sits below, not overlapping */
-  width: 100%;               /* ← takes full width of parent */
-  margin-top: 0.8rem;          /* ← adds breathing room between text and names */
+  display: block;        /* ensures it sits below, not overlapping */
+  width: 100%;
+  margin-top: 0.5rem;
 }
 
+/* Inline heart image inside the names line */
 .hero-names .inline-heart {
   height: 2.5em;
   width: auto;
@@ -112,34 +197,42 @@ video {
   display: inline-block;
 }
 
-.hero-header {
-  color: #254036;
-  font-family: 'Merriweather', serif;  /* fixed: was 'EB Cormorant' */
-  font-size: 3rem;
-  font-weight: 400;
-  letter-spacing: 0.007em;
-  text-align: center;
-  margin-bottom: 1rem;
-  margin-top: -1rem; /* ← pull it up a bit */
+
+/* =============================================================================
+   6. MEDIA — VIDEO
+   =============================================================================
+   The radial mask creates a soft vignette fade around the video edges.
+   ============================================================================= */
+
+.video-wrapper {
+  position: relative;
+  width: var(--content-max-width);
+  max-width: 100%;
+  margin: 0 auto;
 }
 
-@media (max-width: 768px) {
-  .hero-header {
-    font-size: 2.2rem;
-  }
+video {
+  display: block;
+  margin: 0 auto;
+  width: var(--content-max-width);
+  max-width: 100%;
+  height: auto;
+  -webkit-mask-image: radial-gradient(ellipse 90% 85% at 50% 50%, black 60%, transparent 100%);
+          mask-image: radial-gradient(ellipse 90% 85% at 50% 50%, black 60%, transparent 100%);
 }
 
-@media (max-width: 480px) {
-  .hero-header {
-    font-size: 1.9rem;
-  }
-}
 
-/* ============================= Buttons ============================= */
+/* =============================================================================
+   7. BUTTONS
+   ============================================================================= */
+
+/* 7a. Primary register button -----------------------------------------------
+   Solid pill-shaped CTA. High-specificity selectors override Quarto's link
+   styles without needing !important on individual properties where possible.    */
 
 .register-btn-wrapper {
   text-align: center;
-  margin-top: 2.2rem;
+  margin-top: 1.6rem;
 }
 
 .register-btn-wrapper a.register-btn,
@@ -148,9 +241,9 @@ video {
 .register-btn-wrapper a.register-btn:active {
   display: inline-block !important;
   padding: 0.75rem 2.5rem !important;
-  background-color: #254036 !important;
-  color: #EDEAE3 !important;
-  font-family: 'Bebas Neue', sans-serif !important;
+  background-color: var(--color-dark-green) !important;
+  color: var(--color-cream) !important;
+  font-family: var(--font-display) !important;
   font-size: 1.2rem !important;
   letter-spacing: 0.15em !important;
   text-decoration: none !important;
@@ -158,38 +251,20 @@ video {
   border-radius: 50px !important;
   cursor: pointer !important;
   -webkit-appearance: none !important;
-  appearance: none !important;
+          appearance: none !important;
 }
-
 
 .register-btn-wrapper a.register-btn:hover {
   transform: translateY(-2px) !important;
 }
 
 .register-btn:active {
-  transform: translateY(0px);
+  transform: translateY(0);
 }
 
-@media (max-width: 768px) {
-  .register-btn-wrapper a.register-btn,
-  .register-btn-wrapper a.register-btn:link,
-  .register-btn-wrapper a.register-btn:visited {
-    font-size: 1rem !important;
-    padding: 0.6rem 2rem !important;
-  }
-}
-
-@media (max-width: 480px) {
-  .register-btn-wrapper a.register-btn,
-  .register-btn-wrapper a.register-btn:link,
-  .register-btn-wrapper a.register-btn:visited {
-    font-size: 0.9rem !important;
-    padding: 0.5rem 1.75rem !important;
-  }
-}
-
-
-
+/* 7b. Secondary navigation buttons ------------------------------------------
+   Outlined pills that invert on hover; an "--active" modifier marks the
+   current page (non-interactive).                                               */
 
 .secondary-btn-wrapper {
   display: flex;
@@ -205,103 +280,90 @@ video {
 .secondary-btn-wrapper a.secondary-btn:active {
   display: inline-block !important;
   padding: 0.65rem 2rem !important;
-  border: 2px solid #254036 !important;
-  background-color: #EDEAE3 !important;
-  color: #254036 !important;
-  font-family: 'Bebas Neue', sans-serif !important;
+  border: 2px solid var(--color-dark-green) !important;
+  background-color: var(--color-cream) !important;
+  color: var(--color-dark-green) !important;
+  font-family: var(--font-display) !important;
   font-size: 1.0rem !important;
   letter-spacing: 0.15em !important;
   text-decoration: none !important;
   border-radius: 50px !important;
   cursor: pointer !important;
   -webkit-appearance: none !important;
-  appearance: none !important;
+          appearance: none !important;
   transition: background-color 0.2s ease, transform 0.1s ease !important;
 }
 
 .secondary-btn-wrapper a.secondary-btn:hover {
-  border-color: #254036 !important;
-  background-color: #254036 !important;
-  color: #EDEAE3 !important;
+  border-color: var(--color-dark-green) !important;
+  background-color: var(--color-dark-green) !important;
+  color: var(--color-cream) !important;
   transform: translateY(-2px);
 }
 
-/* Active / current page */
+/* Active / current-page state — visually filled, pointer disabled */
 .secondary-btn-wrapper a.secondary-btn--active,
 .secondary-btn-wrapper a.secondary-btn--active:link,
 .secondary-btn-wrapper a.secondary-btn--active:visited,
 .secondary-btn-wrapper a.secondary-btn--active:active {
-  background-color: #254036 !important;
-  color: #EDEAE3 !important;
+  background-color: var(--color-dark-green) !important;
+  color: var(--color-cream) !important;
   cursor: default !important;
   pointer-events: none !important;
 }
 
-/* Mobile */
-@media (max-width: 768px) {
-  .secondary-btn-wrapper a.secondary-btn,
-  .secondary-btn-wrapper a.secondary-btn:link,
-  .secondary-btn-wrapper a.secondary-btn:visited {
-    font-size: 0.88rem !important;
-    padding: 0.6rem 1.5rem !important;
-  }
-}
 
-@media (max-width: 480px) {
-  .secondary-btn-wrapper a.secondary-btn,
-  .secondary-btn-wrapper a.secondary-btn:link,
-  .secondary-btn-wrapper a.secondary-btn:visited {
-    font-size: 0.82rem !important;
-    padding: 0.5rem 1.25rem !important;
-  }
-}
-
-
-
-/* ============================= Navigation Bar ============================= */
+/* =============================================================================
+   8. NAVIGATION BAR
+   ============================================================================= */
 
 .navbar {
   background: transparent;
 }
 
 .navbar-nav .nav-link {
-  font-family: 'Quicksand', sans-serif;
-  color: #335848 !important;
+  font-family: var(--font-sans);
+  color: var(--color-mid-green) !important;
   text-transform: uppercase;
-  letter-spacing: .1em;
-  border-bottom: 0px hidden;
-  margin: 0px 10px 0px 10px;
-  padding: 2px 2px 4px 2px !important;
-
-  &:hover {
-    border-bottom: 1px solid !important;
-    padding: 2px 2px 0px 2px !important;
-    color: #335848;
-  }
+  letter-spacing: 0.1em;
+  margin: 0 10px;
+  padding: 2px 2px 4px !important;
+  border-bottom: 0 hidden;
 }
 
-/* ================================ Footer ================================== */
+.navbar-nav .nav-link:hover {
+  border-bottom: 1px solid !important;
+  padding: 2px 2px 0 !important;
+  color: var(--color-mid-green);
+}
+
+
+/* =============================================================================
+   9. FOOTER
+   ============================================================================= */
 
 footer {
   margin-top: 0;
-  padding: 0.75rem 1rem;
+  padding: var(--space-sm) 1rem;
   min-height: auto;
   background: transparent !important;
   position: relative;
   z-index: 10;
 }
 
+/* Soft text shadow keeps footer readable over any background */
 footer p,
 footer a,
 .nav-footer,
 .nav-footer-center {
-  text-shadow: 1px 1px 3px rgba(255, 255, 255, 0.8),
-               0 0 5px rgba(255, 255, 255, 0.6);
   color: #333 !important;
+  text-shadow:
+    1px 1px 3px rgba(255, 255, 255, 0.8),
+    0 0 5px rgba(255, 255, 255, 0.6);
 }
 
 .nav-footer {
-  padding: 0.75rem 0 !important;
+  padding: var(--space-sm) 0 !important;
   min-height: auto !important;
   background: transparent !important;
 }
@@ -311,13 +373,30 @@ footer a,
   background: transparent !important;
 }
 
-/* ========================== Responsive Design ============================= */
 
-/* Tablets */
+/* =============================================================================
+   10. UTILITY — SPACING HELPERS
+   =============================================================================
+   Use these classes between sections or images in Quarto markdown:
+     ::: {.small-space} ::: etc.
+   ============================================================================= */
+
+.tiny-space   { margin-bottom: 0.5em; }
+.small-space  { margin-bottom: 1em;   }
+.medium-space { margin-bottom: 2em;   }
+.large-space  { margin-bottom: 3em;   }
+
+
+/* =============================================================================
+   11. RESPONSIVE OVERRIDES
+   ============================================================================= */
+
+/* 11a. Tablets — up to 992 px -----------------------------------------------*/
+
 @media (max-width: 992px) {
   .hero-content {
     max-width: 100%;
-    padding: 1.5rem;
+    padding: var(--space-md);
   }
 
   .hero-text {
@@ -329,7 +408,8 @@ footer a,
   }
 }
 
-/* Mobile phones */
+/* 11b. Mobile phones — up to 768 px -----------------------------------------*/
+
 @media (max-width: 768px) {
   #quarto-content {
     min-height: calc(100vh - 70px);
@@ -337,12 +417,16 @@ footer a,
   }
 
   video {
-    width: 100%;            /* full width on small screens */
+    width: 100%;
   }
 
   .hero-content {
-    padding: 1.2rem 1.5rem;
+    padding: 1.2rem var(--space-md);
     max-width: 100%;
+  }
+
+  .hero-header {
+    font-size: 2.2rem;
   }
 
   .hero-text {
@@ -359,21 +443,42 @@ footer a,
     height: 2em;
   }
 
+  /* Buttons */
+  .register-btn-wrapper a.register-btn,
+  .register-btn-wrapper a.register-btn:link,
+  .register-btn-wrapper a.register-btn:visited {
+    font-size: 1rem !important;
+    padding: 0.6rem 2rem !important;
+  }
+
+  .secondary-btn-wrapper a.secondary-btn,
+  .secondary-btn-wrapper a.secondary-btn:link,
+  .secondary-btn-wrapper a.secondary-btn:visited {
+    font-size: 0.88rem !important;
+    padding: 0.6rem 1.5rem !important;
+  }
+
+  /* Footer */
   footer {
-    padding: 0.5rem 0.75rem;
+    padding: 0.5rem var(--space-sm);
     background: transparent !important;
   }
 
   .nav-footer {
-    padding: 0rem 0 !important;
+    padding: 0 !important;
     background: transparent !important;
   }
 }
 
-/* Extra small phones */
+/* 11c. Small phones — up to 480 px ------------------------------------------*/
+
 @media (max-width: 480px) {
   .hero-content {
     padding: 1rem;
+  }
+
+  .hero-header {
+    font-size: 1.9rem;
   }
 
   .hero-text {
@@ -389,43 +494,40 @@ footer a,
     height: 1.8em;
   }
 
+  /* Buttons */
+  .register-btn-wrapper a.register-btn,
+  .register-btn-wrapper a.register-btn:link,
+  .register-btn-wrapper a.register-btn:visited {
+    font-size: 0.9rem !important;
+    padding: 0.5rem 1.75rem !important;
+  }
+
+  .secondary-btn-wrapper a.secondary-btn,
+  .secondary-btn-wrapper a.secondary-btn:link,
+  .secondary-btn-wrapper a.secondary-btn:visited {
+    font-size: 0.82rem !important;
+    padding: 0.5rem 1.25rem !important;
+  }
+
+  /* Footer */
   footer {
-    padding: 0.4rem 0.5rem;
+    padding: var(--space-xs) 0.5rem;
     font-size: 0.85rem;
     background: transparent !important;
   }
 
   .nav-footer {
-    padding: 0rem 0 !important;
+    padding: 0 !important;
     background: transparent !important;
   }
 }
 
-/* Plotly tooltip fix */
+
+/* =============================================================================
+   12. MISC FIXES
+   ============================================================================= */
+
+/* Prevent Plotly tooltips from intercepting mouse events */
 .hoverlayer .hovertext {
   pointer-events: none !important;
-}
-
-html {
-  scroll-behavior: smooth;
-}
-
-
-/* ============= Vertical Spaces for Between Text and/or Images ==============*/
-
-.tiny-space {
-  margin-bottom: 0.5em; 
-}
-
-
-.small-space {
-  margin-bottom: 1em; 
-}
-
-.medium-space {
-  margin-bottom: 2em;
-}
-
-.large-space {
-  margin-bottom: 3em;
 }

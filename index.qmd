@@ -18,12 +18,12 @@ format:
 ::: {.hero-content}
 ::: {.hero-header}
 
-29th August 2026\
+29 · August 2026\
 Chäsalp Zürich
 
 :::
 ::: {.hero-text}
- We're really looking forward to pop the bubbles and enjoy the evening with our favorite people. It would mean a lot to us if you joined us to raise a glass to love & friendship.
+ We're looking forward to pop the bubbles & enjoy the evening with our favorite people. It would mean a lot to us if you joined us to raise a glass to love & friendship.
 :::
 ::: {.hero-names}
 with love J <img src="heart_dark_green.png" class="inline-heart"> S
