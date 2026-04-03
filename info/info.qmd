@@ -25,7 +25,8 @@ Jump to a topic:
 - [Location & Transportation](#location)
 - [RSVP & Guest Information](#guest-info)
 - [Dress Code](#dress-code)
-- [Gifts](#gifts-registry)
+- [Gifts](#gifts)
+- [Acommodation](#acommodation)
 - [Contact](#contact)
 
 ::: medium-space
@@ -41,7 +42,7 @@ Jump to a topic:
 :::
 
 **Staturday, 29th August 2026**\
-Main Event @Chäsalp, Zürich.\
+Main Event @[Chäsalp](https://www.chaesalp.ch), Zürich.\
 *4pm onwards* · Welcome Drinks \
 *7pm - 10pm* · Dinner \
 *10pm - open end* · Dancing 
@@ -49,7 +50,7 @@ Main Event @Chäsalp, Zürich.\
 **Friday, 28th August 2026**\
 Welcome Drinks @[Grain Pub](https://www.grain.ch/), Zürich Fluntern.\
 Join us for a relaxed get-together the evening before!
-We’ll meet at the [Grain Pub](https://www.grain.ch/) on Friday evening from **6pm** onwards for drinks and snacks. Let us know via [RSVP](/RSVP/RSVP.qmd) if you’d like to join.\
+We’ll meet at the Grain Pub on Friday evening from **6pm** onwards for drinks and snacks. Let us know via [RSVP](/RSVP/RSVP.qmd) if you’d like to join.\
 
 
 
@@ -65,8 +66,8 @@ We’ll meet at the [Grain Pub](https://www.grain.ch/) on Friday evening from **
 
 
 **Location**\
-Chäsalp | Restaurant Alter Tobelhof.\ 
-Tobelhofstrasse 236, 8044 Zürich.\
+Chäsalp | Restaurant Alter Tobelhof\
+Tobelhofstrasse 236, 8044 Zürich\
 [www.chaesalp.ch](https://www.chaesalp.ch)
 
 
@@ -106,7 +107,7 @@ Connections run all night back from Chäsalp (Tobelhof) to Zürich city. We're a
 ::: small-space
 :::
 
-Please [RSVP (An/ Abmelden)](/RSVP/RSVP.qmd) latest by **1st of July, 2026**, even if you are unable to attend. This is important to us for further planning.
+Please [RSVP (An/ Abmelden)](/RSVP/RSVP.qmd) latest by **May 31st, 2026**, even if you are unable to attend. This is important to us for further planning.
 
 **Can I bring a plus-one?**\
 We've carefully curated the guest list based on the venue capacity. If your invitation includes "and guest" or names a specific person, they are warmly welcomed. If you're unsure, please contact us!
@@ -139,25 +140,40 @@ The venue has indoor and outdoor space, so we’re good whatever the weather.
 
 ::: {.faq-section}
 
-## Gifts
+## Gifts {#gifts}
 
 ::: small-space
 :::
 
-Having you celebrate with us is what matters most to us — no gifts expected.\ 
+Having you celebrate with us is what matters most to us — speeches, formal contributions or gifts are neither needed nor expected.\ 
 
 ...but, for anyone who’d still like to chip in:
-you can support us, and we’ll split it between a donation to [TBD] and our new dream bed.
+you can support us, and we’ll split it between a donation to [*Alzheimer Schweiz*](https://www.alzheimer-schweiz.ch/de/startseite) and our new dream bed.
 
-At the party, you’ll also find two easy options:
+At the party, you’ll find two easy ways to contribute:
 a classic piggy bank 🐷 or TWINT (Swiss only).
 
-If you prefer to sort it out in advance, feel free to transfer to:
-IBAN: [IBAN here]
+If you prefer to sort it out in advance, feel free to transfer to:\
+IBAN: CH08 0483 5172 5204 2000 0 (Janneke van Woerden)
 
 Please don’t go overboard!
 
 :::
+
+
+
+::: {.faq-section}
+
+## Acommodation {#acommodation}
+
+::: small-space
+:::
+
+Looking for a place to stay?\
+For accommodation recommendations, feel free to reach out to Janneke directly.
+
+:::
+
 
 
 ::: {.faq-section}
@@ -170,8 +186,8 @@ For any other question you may have, please contact one or both of the two:
 :::
 
 **Nadja** (Janneke’s maid of honor)\
- +41 79 XXX XX XX
+ +41 79 797 38 91
 
 **Dalia** (Sereina’s maid of honor)\
-+41 79 XXX XX XX
++41 79 794 57 85
 :::

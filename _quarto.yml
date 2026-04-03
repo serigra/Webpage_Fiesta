@@ -22,7 +22,7 @@ website:
       - href: index.qmd
         text: HOME
       - href: RSVP/RSVP.qmd
-        text: RSVP
+        text: RSVP · AN/ ABMELDUNG
       - href: info/info.qmd
         text: INFO
     
