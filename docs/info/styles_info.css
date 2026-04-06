@@ -107,11 +107,8 @@ a {
 }
 
 
-.form-breakout {
-  margin-left: -2rem !important;
-  margin-right: -2rem !important;
-  width: calc(100% + 4rem) !important;
-  position: relative;
-  overflow: hidden;
-  padding-top: 150%;
+.faq-section div[style*="padding-top"] {
+  margin-left: -2rem;
+  margin-right: -2rem;
+  width: calc(100% + 4rem);
 }
