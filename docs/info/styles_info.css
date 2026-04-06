@@ -106,3 +106,12 @@ a {
     0 15px 30px rgba(0,0,0,0.05);
 }
 
+
+.form-breakout {
+  margin-left: -2rem !important;
+  margin-right: -2rem !important;
+  width: calc(100% + 4rem) !important;
+  position: relative;
+  overflow: hidden;
+  padding-top: 150%;
+}
