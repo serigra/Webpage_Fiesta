@@ -10,8 +10,8 @@ format:
 
 <div class="video-wrapper">
   <video autoplay loop muted playsinline>
-    <source src="GIF4_locations.webm" type="video/webm">
-    <source src="GIF4_locations.mp4" type="video/mp4">
+    <source src="images/GIF4_locations.webm" type="video/webm">
+    <source src="images/GIF4_locations.mp4" type="video/mp4">
   </video>
 </div>
 
@@ -26,7 +26,7 @@ Chäsalp Zürich
  We're looking forward to pop the bubbles & enjoy the evening with our favorite people. It would mean a lot to us if you joined us to raise a glass to love & friendship.
 :::
 ::: {.hero-names}
-with love J <img src="heart_dark_green.png" class="inline-heart"> S
+with love J <img src="images/heart_dark_green.png" class="inline-heart"> S
 :::
 
 <div class="register-btn-wrapper">

@@ -139,7 +139,7 @@ html, body {
   transform: translate(-50%, -50%);
   width: 50%;
   padding-bottom: 80%;           /* preserves the image's aspect ratio */
-  background-image: url('heart_neon_filled.png');
+  background-image: url('images/heart_neon_filled.png');
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
