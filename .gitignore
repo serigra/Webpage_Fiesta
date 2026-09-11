@@ -5,6 +5,8 @@
 .DS_Store
 .quarto
 
+/docs/
+
 /.quarto/
 
 **/*.quarto_ipynb
